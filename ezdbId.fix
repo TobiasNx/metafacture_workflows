@@ -1,0 +1,2 @@
+copy_field("zdbID","_id")
+retain("zdbID","_id","almaMmsId")
