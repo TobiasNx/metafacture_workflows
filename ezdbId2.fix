@@ -1,0 +1,8 @@
+unless exists("almaMmsId.2")
+	reject()
+end
+uniq("zdbId")
+join_field("almaMmsId", "; ")
+
+
+retain("zdbId","almaMmsId")

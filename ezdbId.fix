@@ -1,2 +1,2 @@
-copy_field("zdbID","_id")
-retain("zdbID","_id","almaMmsId")
+copy_field("zdbId","_id")
+retain("zdbId","_id","almaMmsId")
