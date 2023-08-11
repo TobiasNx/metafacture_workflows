@@ -1,0 +1,66 @@
+{
+	"license": {
+		"id": "https://creativecommons.org/licenses/by-sa/4.0/"
+	},
+	"creator": [
+		{
+			"honoricPrefix": "Dr.",
+			"affiliation": {
+				"id": "https://ror.org/04tsk2644",
+				"type": "Organization"
+			},
+			"name": "Markus Deimann",
+			"type": "Person"
+		}
+	],
+	"about": [
+		{
+			"inScheme": {
+				"id": "https://w3id.org/kim/hochschulfaechersystematik/scheme"
+			},
+			"prefLabel": {
+				"de": "Erziehungswissenschaft (Pädagogik)"
+			},
+			"id": "https://w3id.org/kim/hochschulfaechersystematik/n052",
+			"type": "Concept"
+		}
+	],
+	"name": "Die Rolle intermediärer Hochschuleinrichtungen bei der Bewältigung der Corona-Krise",
+	"inLanguage": [
+		"de"
+	],
+	"description": "Studie zu den Auswirkungen der Corona-Pandemie im Hochschulbereich",
+	"learningResourceType": [
+		{
+			"inScheme": {
+				"id": "https://w3id.org/orca.nrw/medientypen/"
+			},
+			"prefLabel": {
+				"de": "Skript",
+				"en": "Script"
+			},
+			"id": "https://w3id.org/orca.nrw/medientypen/script",
+			"type": "Concept"
+		}
+	],
+	"id": "https://api.paideia.hbz-nrw.de/resource/orcatest:3161685d-3ca3-44ea-8d99-d0bb4aad914d",
+	"type": [
+		"LearningResource"
+	],
+	"@context": [
+		"https://w3id.org/kim/lrmi-profile/draft/context.jsonld",
+		{
+			"@language": "de"
+		}
+	],
+	"encoding[]": [
+		{
+			"id": "https://api.paideia.hbz-nrw.de/resource/orcatest:3161685d-3ca3-44ea-8d99-d0bb4aad914d"
+		},
+		{
+			"$end": {
+				"type": "MediaObject"
+			}
+		}
+	]
+}

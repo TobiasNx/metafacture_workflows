@@ -8,7 +8,7 @@ infile
 | open-file(compression="gzip")
 | as-lines
 | decode-json
-| fix("retain('id','name')")
+| fix("retain('id','name' )")
 | encode-csv(includeHeader="TRUE", separator="\t", noQuotes="true")
-| write(FLUX_DIR + "test-org.tsv")
+| write(FLUX_DIR + "org-local.tsv")
 ;
