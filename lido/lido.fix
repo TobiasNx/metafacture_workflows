@@ -1,0 +1,12 @@
+set_array("title[]")
+do list(path:"lido:descriptiveMetadata.lido:objectIdentificationWrap.lido:titleWrap.lido:titleSet","var":"$i") # titleSet ist wiederholbar deswegen list Bind
+	do list(path:"$i.lido:appellationValue","var":"$j") # appellationValue ist wiederholbar deswegen list bind
+		if any_equal("$j.lido:pref","http://terminology.lido-schema.org/lido00169") 
+			copy_field("$j.value","title[].$append.mainTitle")
+			copy_field("$j.xml:lang","title[].$last.inLanguage")
+		end
+	end
+end
+copy_field("lido:lidoRecID.value","id")
+
+retain("title[]","id")
