@@ -1,0 +1,30 @@
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:title")
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dcterms:alternative")
+
+do list(path:"mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:titleInfo","var":"$i")
+	if any_equal("$i..mods:title.@type","alternative")
+		copy_field("$i..mods:title.value","mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dcterms:alternative.$append.value")
+	else
+		copy_field("$i..mods:title.value","mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:title.$append.value")
+	end
+end
+
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:creator")
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:contributor")
+
+do list(path:"mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:name","var":"$i")
+	if any_equal("$i.mods:role.mods:roleTerm.value","aut")
+		copy_field("$i.mods:displayForm.value","mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:creator.$append.value")
+	else
+		copy_field("$i.mods:displayForm.value","mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:creator.$append.value")
+	end
+end
+
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:type")
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:publisher")
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dcterms:issued")
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:date")
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:description")
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:format")
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:identifier")
+set_array("mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:rights")
