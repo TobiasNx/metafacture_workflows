@@ -45,12 +45,14 @@
 18	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:div.*.@TYPE
 18	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:div.*.mets:fptr.@FILEID
 12	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:div.*.@LABEL
+7	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:identifier.*.value
 5	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:note.*.value
 5	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:div.*.mets:div.*.@CONTENTIDS
 4	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:div.*.mets:div.@ID
 4	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:div.*.mets:div.@LABEL
 4	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:div.*.mets:div.@ORDER
 4	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:div.*.mets:div.@TYPE
+4	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:description.*.value
 3	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:identifier.*.@type
 3	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:identifier.*.value
 3	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:name.*.@authority
@@ -76,6 +78,7 @@
 3	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:titleInfo.*.mods:title.value
 3	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:div.*.mets:div.@ADMID
 3	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:div.*.mets:div.mets:fptr.@FILEID
+3	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:type.*.value
 2	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:originInfo.*.mods:dateIssued.*.value
 2	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:originInfo.*.mods:place.mods:placeTerm.@type
 2	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:originInfo.*.mods:place.mods:placeTerm.value
@@ -84,6 +87,11 @@
 2	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:relatedItem.mods:relatedItem.mods:titleInfo.*.@type
 2	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:relatedItem.mods:titleInfo.*.@type
 2	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods.mods:titleInfo.*.@type
+2	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:contributor.*.value
+2	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:publisher.*.value
+2	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:rights.*.value
+2	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:title.*.value
+2	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dcterms:issued.*.value
 2	|	mets:fileSec.mets:fileGrp.*.@ADMID
 2	|	mets:fileSec.mets:fileGrp.*.@ID
 2	|	mets:fileSec.mets:fileGrp.*.@USE
@@ -198,4 +206,8 @@
 1	|	mets:amdSec.*.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:structMap.mets:div.mets:div.mets:fptr.@FILEID
 1	|	mets:dmdSec.@ID
 1	|	mets:dmdSec.mets:mdWrap.@MDTYPE
+1	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:creator.value
+1	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:date.value
+1	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:format.value
 1	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:language.value
+1	|	mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dcterms:alternative.value

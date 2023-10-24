@@ -1,0 +1,10 @@
+set_array("indexCountHelper[]")
+do list(path:"array[]","var":"$i")
+    copy_field("$i.a","indexCountHelper[].$append")
+    copy_field("indexCountHelper[]","$i.indexPosition")
+    if is_array("$i.indexPosition")
+        count("$i.indexPosition")
+    else
+        add_field("$i.indexPosition","1")
+    end
+end
