@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record>
+  <header>
+    <identifier>oai:danrw:2023-11-05-0910</identifier>
+    <datestamp>2023-11-06T08:12:51Z</datestamp>
+  </header>
+  <metadata>
+    <ns1:RDF xmlns:ns1="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ns10="http://www.openarchives.org/ore/terms/" xmlns:ns11="http://www.w3.org/ns/odrl/2/" xmlns:ns12="http://creativecommons.org/ns#" xmlns:ns13="http://usefulinc.com/ns/doap#" xmlns:ns14="http://xmlns.com/foaf/0.1/" xmlns:ns15="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.europeana.eu/schemas/edm/" xmlns:ns3="http://purl.org/dc/elements/1.1/" xmlns:ns4="http://purl.org/dc/terms/" xmlns:ns5="http://www.w3.org/2002/07/owl#" xmlns:ns6="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#">
+  <ns2:ProvidedCHO ns1:about="2023-11-05-0910">
+    <ns3:title>Historisches Archiv 1</ns3:title>
+    <ns3:language>Deutsch</ns3:language>
+    <ns3:type>Archivalie</ns3:type>
+    <ns3:contributor>Amt für Stadverwaltung</ns3:contributor>
+    <ns3:creator>Amt für Presse- und Öffentlichkeitsarbeit</ns3:creator>
+    <ns3:identifier>2023-11-05-0910</ns3:identifier>
+    <ns3:rights>Rechte</ns3:rights>
+    <ns3:publisher>Stadtarchiv Musterstadt 1</ns3:publisher>
+    <ns4:issued>25.04.2022</ns4:issued>
+    <ns2:hasType>is root element</ns2:hasType>
+    <ns2:type>TEXT</ns2:type>
+  </ns2:ProvidedCHO>
+  <ns2:ProvidedCHO ns1:about="2023-11-05-0910">
+    <ns3:title>Historisches Archiv 2</ns3:title>
+    <ns3:language>Deutsch</ns3:language>
+    <ns3:type>Archivalie</ns3:type>
+    <ns3:contributor>Amt für Stadtverwaltung</ns3:contributor>
+    <ns3:creator>Amt für Presse- und Öffentlichkeitsarbeit</ns3:creator>
+    <ns3:identifier>2023-11-05-0911</ns3:identifier>
+    <ns3:rights>Rechte</ns3:rights>
+    <ns3:publisher>Stadtarchiv Musterstadt 2</ns3:publisher>
+    <ns4:issued>25.04.2022</ns4:issued>
+    <ns2:hasType>is root element</ns2:hasType>
+    <ns2:type>TEXT</ns2:type>
+  </ns2:ProvidedCHO>
+    </ns1:RDF>
+  </metadata>
+</record>

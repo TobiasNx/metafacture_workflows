@@ -1,0 +1,30 @@
+{
+  "id" : "oai:danrw:2023-11-05-0910",
+  "rdf:RDF" : {
+    "edm:ProvidedCHO" : [ {
+      "ns1:about" : "2023-11-05-0910",
+      "dc:title" : [ "Historisches Archiv 1" ],
+      "dc:creator" : [ "Amt für Presse- und Öffentlichkeitsarbeit" ],
+      "dc:contributor" : [ "Amt für Stadverwaltung" ],
+      "dc:publisher" : [ "Stadtarchiv Musterstadt 1" ],
+      "dc:language" : [ "Deutsch" ],
+      "dc:identifier" : [ "2023-11-05-0910" ],
+      "dc:rights" : [ "Rechte" ],
+      "edm:type" : "TEXT",
+      "dc:type" : "Archivalie",
+      "dcterms:issued" : [ "25.04.2022" ]
+    }, {
+      "ns1:about" : "2023-11-05-0910",
+      "dc:title" : [ "Historisches Archiv 2" ],
+      "dc:creator" : [ "Amt für Presse- und Öffentlichkeitsarbeit" ],
+      "dc:contributor" : [ "Amt für Stadtverwaltung" ],
+      "dc:publisher" : [ "Stadtarchiv Musterstadt 2" ],
+      "dc:language" : [ "Deutsch" ],
+      "dc:identifier" : [ "2023-11-05-0911" ],
+      "dc:rights" : [ "Rechte" ],
+      "edm:type" : "TEXT",
+      "dc:type" : "Archivalie",
+      "dcterms:issued" : [ "25.04.2022" ]
+    } ]
+  }
+}

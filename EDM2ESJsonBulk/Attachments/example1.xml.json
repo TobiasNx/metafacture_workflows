@@ -1,0 +1,11 @@
+{
+  "id" : "oai:danrw:2023-11-05-0910",
+  "rdf:RDF" : {
+    "edm:ProvidedCHO" : [ {
+      "ns1:about" : "2023-11-05-0910",
+      "ns2:hasType" : {
+        "value" : "is root element"
+      }
+    } ]
+  }
+}
