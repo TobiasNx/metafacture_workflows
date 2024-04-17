@@ -16,5 +16,5 @@ retain('1')")
 | fix("paste('marcLink','~https://lobid.org/marcxml/','almaMmsId',join_char:'')
 retain('id','title','hbzId','marcLink')")
 | encode-csv(includeHeader="TRUE", separator="\t", noQuotes="true")
-| write(FLUX_DIR + "missingLibraries.tsv")
+| write(FLUX_DIR + "missingJournals.tsv")
 ;
