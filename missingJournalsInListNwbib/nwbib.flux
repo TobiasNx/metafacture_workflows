@@ -13,7 +13,8 @@ retain('1')")
 | open-http(accept="application/json")
 | as-records
 | decode-json
-| fix("retain('id','title','hbzId')")
+| fix("paste('marcLink','~https://lobid.org/marcxml/','almaMmsId',join_char:'')
+retain('id','title','hbzId','marcLink')")
 | encode-csv(includeHeader="TRUE", separator="\t", noQuotes="true")
 | write(FLUX_DIR + "missingLibraries.tsv")
 ;
