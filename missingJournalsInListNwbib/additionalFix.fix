@@ -1,0 +1,5 @@
+unless any_equal('totalItems','0')
+		reject()
+end
+replace_all('id','.*(HT\\d*).*','https://lobid.org/resources/$1')
+retain('id')
