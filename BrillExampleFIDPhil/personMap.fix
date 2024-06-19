@@ -1,0 +1,2 @@
+paste("name","fields.0800[].*.content","fields.0201[].*.content")
+retain("id","name")
