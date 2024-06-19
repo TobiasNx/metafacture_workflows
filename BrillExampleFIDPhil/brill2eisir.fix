@@ -1,0 +1,18 @@
+# Set map
+put_filemap("BrillExampleFIDPhil/maps/personMap.tsv", "personMap", sep_char:"\t")
+
+# <titleDisplay>
+copy_field("fields.0331[].*.content","titleDisplay.value")
+
+
+# <author>
+set_array("author")
+do list(path:"fields.0100[]","var":"$i")
+    copy_field("$i.id","author.$append.nameDisplay.value")
+    add_field("author.$last.role.value","aut")
+end
+
+lookup("author.*.nameDisplay.value","personMap")
+uniq("author")
+
+retain("titleDisplay","author")
