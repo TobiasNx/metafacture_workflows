@@ -1,0 +1,2 @@
+copy_field("fields.0800[].*.content","0800")
+retain("id","0800")
