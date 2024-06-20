@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?> 
+<!DOCTYPE ONIXmessage SYSTEM
+"http://www.editeur.org/onix/2.1/short/onix-international.dtd">
+<ONIXmessage release="2.1"> 
+<header> 
+<m174>Logos Verlag Berlin</m174> 
+<m175>Dr. Volkhard Buchholtz</m175> 
+<m283>v.buchholtz@logos-verlag.de</m283> 
+<m182>20240208</m182> 
+</header> 
+<product>
+<a001>9783832545482</a001> 
+<a002>03</a002> 
+<productidentifier> 
+<b221>03</b221> 
+<b244>9783832545482</b244>
+</productidentifier>
+<productidentifier> 
+<b221>06</b221> 
+<b244>10.30819/4548</b244>
+</productidentifier>
+<b012>DG</b012> 
+<b211>002</b211>
+<series>
+<title>
+<b202>01</b202>
+<b203>Philosophische Hefte</b203>
+</title>
+<b019>1</b019>
+</series>
+<title>
+<b202>01</b202>
+<b203>Ungewissheit und Objektivität</b203>
+</title>
+<contributor>
+<b034>1</b034>
+<b035>A01</b035>
+<b036>Thomas Gil</b036>
+<b039>Thomas</b039>
+<b040>Gil</b040>
+</contributor>
+<language>
+<b253>01</b253>
+<b252>ger</b252>
+</language>
+<b061>43</b061>
+<mainsubject>
+<b191>26</b191>
+<b068>2.0</b068>
+<b069>1922</b069>
+</mainsubject>
+<mainsubject>
+<b191>93</b191>
+<b068>1.0</b068>
+<b069>QDHR</b069>
+</mainsubject>
+<subject>
+<b067>93</b067>
+<b068>1.0</b068>
+<b069>GTB</b069>
+</subject>
+<subject>
+<b067>93</b067>
+<b068>1.0</b068>
+<b069>QDHR9</b069>
+</subject>
+<subject>
+<b067>93</b067>
+<b068>1.0</b068>
+<b069>YPJL</b069>
+</subject>
+<subject>
+<b067>20</b067>
+<b070>Induktion und Induktives Schließen</b070>
+</subject>
+<subject>
+<b067>20</b067>
+<b070>Konditionalisiertes Denken und bedingte Wahrscheinlichkeiten</b070>
+</subject>
+<subject>
+<b067>20</b067>
+<b070>Objektivität</b070>
+</subject>
+<subject>
+<b067>20</b067>
+<b070>Modelle und inferentielle Netzwerke</b070>
+</subject>
+<subject>
+<b067>20</b067>
+<b070>Analogiebildungen und nicht-demonstratives Schließen</b070>
+</subject>
+<othertext>
+<d102>01</d102>
+<d103>00</d103>
+<d104>
+Aus Erfahrenem schließen wir, wie die Dinge der Welt beschaffen sind und was wir in Bezug auf die Zukunft erwarten können. Unser Schließen wird aber immer ungewiss bleiben, selbst dann, wenn wir uns um Objektivität bemühen.
+
+</d104>
+</othertext>
+<othertext>
+<d102>47</d102>
+<d103>06</d103>
+<d104>Open Access publication</d104>
+</othertext>
+<othertext>
+<d102>46</d102>
+<d105>01</d105>
+<d106>http://creativecommons.org/licenses//4.0</d106>
+</othertext>
+<productwebsite>
+<b367>02</b367> 
+<f123>https://doi.org/10.30819/4548</f123>
+</productwebsite>
+<publisher>
+<b081>Logos Verlag Berlin</b081>
+</publisher>
+<b209>Berlin</b209>
+<b003>20171013</b003>
+</product> 
+</ONIXmessage>
+

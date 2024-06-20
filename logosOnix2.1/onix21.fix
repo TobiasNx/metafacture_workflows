@@ -1,0 +1,11 @@
+do list(path:"product.title","var":"$i")
+    copy_field("$i.b203.value","titleDisplay.value")
+end
+set_array("author")
+do list(path:"product.contributor","var":"$i")
+    copy_field("$i.b036.value","author.$append.nameDisplay.value")
+    add_field("author.$last.role.value","aut")
+end
+retain("titleDisplay","author")
+
+
