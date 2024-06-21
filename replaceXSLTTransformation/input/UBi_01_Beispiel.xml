@@ -1,54 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/oai.xsl' ?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-<responseDate>2023-09-18T11:48:43Z</responseDate>
-<request identifier="oai:pub.uni-bielefeld.de:2301439" metadataPrefix="oai_dc" verb="GetRecord">https://pub.uni-bielefeld.de/oai</request>
-
-<GetRecord>
-<record>
-<header>
-    <identifier>oai:pub.uni-bielefeld.de:2301439</identifier>
-    <datestamp>2020-03-11T09:03:47Z</datestamp>
-    <setSpec>bi_dissertation</setSpec>
-    <setSpec>doc-type:doctoralThesis</setSpec>
-    <setSpec>ddc:510</setSpec>
-    <setSpec>bi_dissertationFtxt</setSpec>
-    <setSpec>open_access</setSpec>
-</header>
-
-<metadata>
-<oai_dc:dc xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/"
-           xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
-           xmlns:dc="http://purl.org/dc/elements/1.1/"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-   	<dc:title>Some classes of Markov processes on configuration spaces and their applications</dc:title>
-   	<dc:creator>Ohlerich, Nataliya</dc:creator>
-   	<dc:subject>Markov-Prozess , Kontinuum (Mathematik) , Konfigurationsraum , Gibbs-Maß , Geburt-Tod-Prozess (Mathematik) , Glauber-Dynamik , Kawasaki-Dynamik , Birth-and-death process , Continuous system , Glauber dynamics , Kawasaki dynamics , Determinantal point process</dc:subject>
-   	<dc:subject>ddc:510</dc:subject>
-   	<dc:description>Ohlerich N. &lt;em&gt;Some classes of Markov processes on configuration spaces and their applications&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2007.</dc:description>
-   	<dc:description>In dieser Arbeit werden Glauber- und Kawasaki-Dynamiken im Kontinuum studiert und einige Anwendungen von Geburts- und Sterbeprozessen auf demographische Modelle betrachtet.
+<record xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header>
+		<identifier>oai:pub.uni-bielefeld.de:2301439</identifier>
+		<datestamp>2020-03-11T09:03:47Z</datestamp>
+		<setSpec>bi_dissertation</setSpec>
+		<setSpec>doc-type:doctoralThesis</setSpec>
+		<setSpec>ddc:510</setSpec>
+		<setSpec>bi_dissertationFtxt</setSpec>
+		<setSpec>open_access</setSpec>
+	</header>
+	<metadata>
+		<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<dc:title>Some classes of Markov processes on configuration spaces and their applications</dc:title>
+			<dc:creator>Ohlerich, Nataliya</dc:creator>
+			<dc:subject>Markov-Prozess , Kontinuum (Mathematik) , Konfigurationsraum , Gibbs-Maß , Geburt-Tod-Prozess (Mathematik) , Glauber-Dynamik , Kawasaki-Dynamik , Birth-and-death process , Continuous system , Glauber dynamics , Kawasaki dynamics , Determinantal point process</dc:subject>
+			<dc:subject>ddc:510</dc:subject>
+			<dc:description>Ohlerich N. &lt;em>Some classes of Markov processes on configuration spaces and their applications&lt;/em>. Bielefeld (Germany): Bielefeld University; 2007.</dc:description>
+			<dc:description>In dieser Arbeit werden Glauber- und Kawasaki-Dynamiken im Kontinuum studiert und einige Anwendungen von Geburts- und Sterbeprozessen auf demographische Modelle betrachtet.
 Eine Glauberdynamik ist ein räumlicher Geburts- und Sterbeprozess, und eine Kawasaki-Dynamik ist ein räumlicher Sprungprozess. Mithilfe der Theorie der Dirichletformen wurden equilibrium Glauber- und Kawasaki-Dynamiken mit einem Determinantal Point Process als invariantem Maß konstruiert. Es wurden auch die Spektraleigenschaften des Generators der Glauber-Dynamik untersucht und Ergebnisse für eine Klasse der Potenziale erziehlt, die zuvor nicht untersucht werden konnten.</dc:description>
-   	<dc:description>In this work Glauber and Kawasaki dynamics for interacting particle systems in continuum are studied, and some applications of certain birth-and-death processes to demography are considered.
+			<dc:description>In this work Glauber and Kawasaki dynamics for interacting particle systems in continuum are studied, and some applications of certain birth-and-death processes to demography are considered.
 The Glauber dynamics may be interpreted as a special birth-and-death process, whereas in the Kawasaki dynamics particles randomly jump over the space. Using the theory of Dirichlet forms we construct equilibrium Glauber and Kawasaki dynamics which have a Determinantal Point Process as an invariant measure. We also studied the spectral properties of the Glauber dynamics generator and achieved new results for a class of potentials, for which no conclusions could be gained before.</dc:description>
-   	<dc:publisher>Bielefeld University</dc:publisher>
-   	<dc:date>2007</dc:date>
-   	<dc:type>http://purl.org/coar/resource_type/c_db06</dc:type>
-   	<dc:type>info:eu-repo/semantics/doctoralThesis</dc:type>
-   	<dc:type>doc-type:doctoralThesis</dc:type>
-   	<dc:type>text</dc:type>
-   	<dc:identifier>https://nbn-resolving.org/urn:nbn:de:hbz:361-12590</dc:identifier>
-   	<dc:identifier>https://pub.uni-bielefeld.de/record/2301439</dc:identifier>
-   	<dc:identifier>https://pub.uni-bielefeld.de/download/2301439/2301442</dc:identifier>
-   	<dc:language>eng</dc:language>
-   	<dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
-   	<dc:rights>https://rightsstatements.org/vocab/InC/1.0/</dc:rights>
-</oai_dc:dc>
-
-</metadata>
+			<dc:publisher>Bielefeld University</dc:publisher>
+			<dc:date>2007</dc:date>
+			<dc:type>http://purl.org/coar/resource_type/c_db06</dc:type>
+			<dc:type>info:eu-repo/semantics/doctoralThesis</dc:type>
+			<dc:type>doc-type:doctoralThesis</dc:type>
+			<dc:type>text</dc:type>
+			<dc:identifier>https://nbn-resolving.org/urn:nbn:de:hbz:361-12590</dc:identifier>
+			<dc:identifier>https://pub.uni-bielefeld.de/record/2301439</dc:identifier>
+			<dc:identifier>https://pub.uni-bielefeld.de/download/2301439/2301442</dc:identifier>
+			<dc:language>eng</dc:language>
+			<dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+			<dc:rights>https://rightsstatements.org/vocab/InC/1.0/</dc:rights>
+		</oai_dc:dc>
+	</metadata>
 </record>
-</GetRecord>
-</OAI-PMH>
-
