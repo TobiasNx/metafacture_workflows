@@ -26,13 +26,6 @@ add_field("mets:amdSec.$last.mets:digiprovMD.mets:mdWrap.@MDTYPE","OTHER")
 add_field("mets:amdSec.$last.mets:digiprovMD.mets:mdWrap.@OTHERMDTYPE","dnx")
 add_field("mets:amdSec.$last.mets:digiprovMD.mets:mdWrap.mets:xmlData.dnx.@xmlns","http://www.exlibrisgroup.com/dps/dnx")
 
-# mets:amdSec.*.mets:techMD.@ID
-# mets:amdSec.*.mets:techMD.mets:mdWrap.@MDTYPE
-# mets:amdSec.*.mets:techMD.mets:mdWrap.@OTHERMDTYPE
-# mets:amdSec.*.mets:techMD.mets:mdWrap.mets:xmlData.dnx.section.@id
-# mets:amdSec.*.mets:techMD.mets:mdWrap.mets:xmlData.dnx.section.record.key.*.@id
-# mets:amdSec.*.mets:techMD.mets:mdWrap.mets:xmlData.dnx.section.record.key.*.value
-
 add_field("mets:amdSec.$append.@ID","rep1-amd")
 add_field("mets:amdSec.$last.mets:techMD.@ID","rep1-amd-tech")
 set_hash("mets:amdSec.$last.mets:techMD.mets:mdWrap", "@MDTYPE":"OTHER","@OTHERMDTYPE":"dnx")
@@ -69,29 +62,5 @@ do list(path: "mets:dmdSec.mets:mdWrap.mets:xmlData.dc:record.dc:identifier", "v
 		remove_field("$i.pos")
 	end
 end
-
-# mets:amdSec.*.@ID
-# mets:amdSec.*.mets:digiprovMD.@ID
-# mets:amdSec.*.mets:digiprovMD.mets:mdWrap.@MDTYPE
-# mets:amdSec.*.mets:digiprovMD.mets:mdWrap.@OTHERMDTYPE
-# mets:amdSec.*.mets:rightsMD.@ID
-# mets:amdSec.*.mets:rightsMD.mets:mdWrap.@MDTYPE
-# mets:amdSec.*.mets:rightsMD.mets:mdWrap.@OTHERMDTYPE
-# mets:amdSec.*.mets:rightsMD.mets:mdWrap.mets:xmlData.dnx.section.@id
-# mets:amdSec.*.mets:techMD.@ID
-# mets:amdSec.*.mets:techMD.mets:mdWrap.@MDTYPE
-# mets:amdSec.*.mets:techMD.mets:mdWrap.@OTHERMDTYPE
-# mets:amdSec.*.mets:techMD.mets:mdWrap.mets:xmlData.dnx.section.@id
-# mets:amdSec.*.mets:techMD.mets:mdWrap.mets:xmlData.dnx.section.record.key.*.@id
-# mets:amdSec.*.mets:techMD.mets:mdWrap.mets:xmlData.dnx.section.record.key.*.value
-# mets:dmdSec.@ID
-# mets:dmdSec.mets:mdWrap.@MDTYPE
-# mets:fileSec.mets:fileGrp.@ID
-# mets:fileSec.mets:fileGrp.@USE
-# mets:fileSec.mets:fileGrp.mets:file.@ID
-# mets:fileSec.mets:fileGrp.mets:file.mets:FLocat.@LOCTYPE
-# mets:fileSec.mets:fileGrp.mets:file.mets:FLocat.@xlink:href
-
-
 
 retain("mets*")

@@ -1,0 +1,115 @@
+put_var("modsInputPath","metadata.mets:mets.mets:dmdSec.mets:mdWrap.mets:xmlData.mods:mods")
+put_var("dcPath","mets:dmdSec.mets:mdWrap.mets:xmlData")
+
+
+## New dmdSec with DC-Metadata
+
+#name space for DC
+add_field("$[dcPath].dc:record.@xmlns:dc","http://purl.org/dc/elements/1.1/" )
+add_field("$[dcPath].dc:record.@xmlns:xsi","http://www.w3.org/2001/XMLSchema-instance")
+
+set_array("$[dcPath].dc:record.dc:title")
+set_array("$[dcPath].dc:record.dcterms:alternative")
+
+do list(path:"$[modsInputPath].mods:titleInfo","var":"$i")
+	if any_equal("$i.@type","alternative")
+		copy_field("$i.mods:title.value","$[dcPath].dc:record.dcterms:alternative.$append.value")
+	else
+		copy_field("$i.mods:title.value","$[dcPath].dc:record.dc:title.$append.value")
+	end
+end
+
+set_array("$[dcPath].dc:record.dc:creator")
+set_array("$[dcPath].dc:record.dc:contributor")
+
+do list(path:"$[modsInputPath].mods:name","var":"$i")
+	if any_equal("$i.mods:role.mods:roleTerm.value","aut")
+		copy_field("$i.mods:displayForm.value","$[dcPath].dc:record.dc:creator.$append.value")
+	else
+		copy_field("$i.mods:displayForm.value","$[dcPath].dc:record.dc:contributor.$append.value")
+	end
+end
+
+set_array("$[dcPath].dc:record.dc:type")
+
+copy_field("$[modsInputPath].mods:typeOfResource.value","$[dcPath].dc:record.dc:type.$append.value")
+copy_field("$[modsInputPath].mods:genre.value","$[dcPath].dc:record.dc:type.$append.value")
+copy_field("$[modsInputPath].mods:originInfo.*.mods:issuance.value","$[dcPath].dc:record.dc:type.$append.value")
+
+
+set_array("$[dcPath].dc:record.dc:coverage")
+copy_field("$[modsInputPath].mods:subject.mods:hierarchicalGeographic.mods:city.value","$[dcPath].dc:record.dc:coverage.$append.value")
+
+
+set_array("$[dcPath].dc:record.dc:publisher")
+copy_field("$[modsInputPath].mods:originInfo.*.mods:publisher.value","$[dcPath].dc:record.dc:publisher.$append.value")
+
+set_array("$[dcPath].dc:record.dcterms:issued")
+set_array("$[dcPath].dc:record.dc:date")
+do list(path: "$[modsInputPath].mods:originInfo","var":"$i")
+	do list(path: "$i.mods:dateIssued","var":"$j")
+		if exists("$j.@keyDate")
+			copy_field("$j.value","$[dcPath].dc:record.dc:date.$append.value")
+		else
+			copy_field("$j.value","$[dcPath].dc:record.dcterms:issued.$append.value")
+		end
+	end
+end
+
+
+set_array("$[dcPath].dc:record.dc:language")
+copy_field("$[modsInputPath].mods:language.mods:languageTerm.value","$[dcPath].dc:record.dc:language.$append.value")
+
+set_array("$[dcPath].dc:record.dc:description")
+set_array("$[dcPath].dc:record.dc:identifier")
+copy_field("$[modsInputPath].mods:originInfo.*.mods:edition.value","$[dcPath].dc:record.dc:description.$append.value")
+
+do list(path: "$[modsInputPath].mods:note","var":"$i")
+	if any_equal("$i.@type","citation/reference")
+		copy_field("$i.value","$[dcPath].dc:record.dc:identifier.$append.value")
+	else
+		copy_field("$i.value","$[dcPath].dc:record.dc:description.$append.value")
+	end
+end
+
+do list(path: "$[modsInputPath].mods:identifier","var":"$i")
+
+	if any_match("$i.@type","^urn.*$")
+		paste("$[dcPath].dc:record.dc:identifier.$append.value","~https://nbn-resolving.org/","$i.value",join_char:"")
+		copy_field("$i.value","$[dcPath].dc:record.dc:identifier.$append.value")
+	else
+		paste("$[dcPath].dc:record.dc:identifier.$append.value","$i.@type","~:","$i.value",join_char:"")
+	end
+end
+
+paste("$[dcPath].dc:record.dc:identifier.$append.value","~system:","$[dcPath].mods:mods.mods:recordInfo.mods:recordIdentifier.value",join_char:"")
+
+set_array("$[dcPath].dc:record.dc:format")
+copy_field("$[modsInputPath].mods:physicalDescription.mods:extent.value","$[dcPath].dc:record.dc:format.$append.value")
+
+
+set_array("$[dcPath].dc:record.dc:rights")
+copy_field("$[modsInputPath].mods:accessCondition.value","$[dcPath].dc:record.dc:rights.$append.value")
+copy_field("$[modsInputPath].mods:accessCondition.@xlink:href","$[dcPath].dc:record.dc:rights.$append.value")
+
+
+
+# Restructure record
+
+set_array("mets:amdSec")
+move_field("metadata.mets:mets.mets:amdSec","mets:sourceMD.mets:mdWrap.mets:xmlData.mets:amdSec")
+
+# amdSec: ie-amd
+add_field("mets:amdSec.$append.@ID","ie-amd")
+add_field("mets:amdSec.$last.mets:sourceMD.mets:mdWrap.@MDTYPE","MODS")
+move_field("metadata.mets:mets.mets:dmdSec","mets:amdSec.$last.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec")
+move_field("metadata.mets:mets.mets:dmdSec","mets:amdSec.$last.mets:sourceMD.mets:mdWrap.mets:xmlData.mets:dmdSec")
+
+
+add_field("mets:amdSec.$last.mets:rightsMD.@ID","ie-amd-rights")
+add_field("mets:amdSec.$last.mets:rightsMD.mets:mdWrap.@MDTYPE","OTHER")
+add_field("mets:amdSec.$last.mets:rightsMD.mets:mdWrap.@OTHERMDTYPE","dnx")
+add_field("mets:amdSec.$last.mets:rightsMD.mets:mdWrap.mets:xmlData.dnx.section.@id","accessRightsPolicy")
+
+retain("mets*")
+
