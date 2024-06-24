@@ -4,7 +4,7 @@
 		<mets:dmdSec>
 			<mets:mdWrap>
 				<mets:xmlData>
-					<dc:record>
+					<dc:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 						<dc:title>Q. Horatius Flaccus</dc:title>
 						<dcterms:alternative>Quintus Horatius Flaccus</dcterms:alternative>
 						<dc:creator>Horatius Flaccus, Quintus</dc:creator>
@@ -12,6 +12,7 @@
 						<dc:type>text</dc:type>
 						<dc:type>book</dc:type>
 						<dc:type>monographic</dc:type>
+						<dc:coverage>Amsterdam</dc:coverage>
 						<dc:publisher>Wetstein &amp; Smith</dc:publisher>
 						<dc:publisher>Universitätsbibliothek Wuppertal</dc:publisher>
 						<dcterms:issued>1728</dcterms:issued>
