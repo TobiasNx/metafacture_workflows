@@ -3,6 +3,8 @@ add_field("mets:dmdSec.mets:mdWrap.@MDTYPE","DC")
 
 # amdSec
 set_array("mets:amdSec")
+
+# amdSec - ie-amd
 add_field("mets:amdSec.$append.@ID","ie-amd")
 set_hash("mets:amdSec.$last.mets:techMD","@ID":"ie-amd-tech")
 set_hash("mets:amdSec.$last.mets:techMD.mets:mdWrap", "@MDTYPE":"OTHER","@OTHERMDTYPE":"dnx")
@@ -26,6 +28,7 @@ add_field("mets:amdSec.$last.mets:digiprovMD.mets:mdWrap.@MDTYPE","OTHER")
 add_field("mets:amdSec.$last.mets:digiprovMD.mets:mdWrap.@OTHERMDTYPE","dnx")
 add_field("mets:amdSec.$last.mets:digiprovMD.mets:mdWrap.mets:xmlData.dnx.@xmlns","http://www.exlibrisgroup.com/dps/dnx")
 
+# amdSec - rep1-amd
 add_field("mets:amdSec.$append.@ID","rep1-amd")
 add_field("mets:amdSec.$last.mets:techMD.@ID","rep1-amd-tech")
 set_hash("mets:amdSec.$last.mets:techMD.mets:mdWrap", "@MDTYPE":"OTHER","@OTHERMDTYPE":"dnx")
