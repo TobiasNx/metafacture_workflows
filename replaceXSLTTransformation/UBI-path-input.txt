@@ -1,0 +1,14 @@
+header.datestamp.value
+header.identifier.value
+header.setSpec.*.value
+metadata.oai_dc:dc.@xsi:schemaLocation
+metadata.oai_dc:dc.dc:creator.value
+metadata.oai_dc:dc.dc:date.value
+metadata.oai_dc:dc.dc:description.*.value
+metadata.oai_dc:dc.dc:identifier.*.value
+metadata.oai_dc:dc.dc:language.value
+metadata.oai_dc:dc.dc:publisher.value
+metadata.oai_dc:dc.dc:rights.*.value
+metadata.oai_dc:dc.dc:subject.*.value
+metadata.oai_dc:dc.dc:title.value
+metadata.oai_dc:dc.dc:type.*.value
