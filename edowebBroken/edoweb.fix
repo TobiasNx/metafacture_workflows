@@ -1,0 +1,13 @@
+do list(path:"960??","var":"$i")
+    if any_contain("$i.r","edoweb")
+        add_field("edoweb","true")
+    end
+end
+
+unless exists("edoweb")
+    reject()
+end
+
+paste("marcXml","~https://lobid.org/marcxml/","001",join_char:"")
+
+retain("001","960??","marcXml")

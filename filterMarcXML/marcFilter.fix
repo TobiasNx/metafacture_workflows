@@ -1,0 +1,3 @@
+unless any_contain("001","aHR0cHM6Ly9vcGVuLnVtbi5lZHUvb3BlbnRleHRib29rcy90ZXh0Ym9va3MvY2FzZS1zdHVkaWVzLWZvci1oZWFsdGgtcmVzZWFyY2gtYW5kLXByYWN0aWNlLWluLWF1c3RyYWxpYS1hbmQtbmV3LXplYWxhbmQ=")
+    reject()
+end

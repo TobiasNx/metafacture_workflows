@@ -1,0 +1,12 @@
+set_array("falscheSubjectURI(084$0)[]")
+set_array("falscheNotation(084$a)[]")
+set_array("falscheSpatialURI(084$a)[]")
+
+do list(path:"subject[]","var":"$subjects")
+    if any_match("$subjects.label","https://w3id.org/lobid/rpb2.*")
+        copy_field("$subjects.label","falscheSubjectURI(084$0)[].$append")
+    end
+end
+
+retain("falscheSubjectURI(084$0)[]","falscheNotation(084$a)[]", "falscheSpatialURI(084$0)[]")
+vacuum()

@@ -1,0 +1,5 @@
+do list(path: "inCollection[]", "var":"$i")
+	if any_equal("$i.id", "http://lobid.org/organisations/DE-655#!")
+		reject()
+	end
+end
