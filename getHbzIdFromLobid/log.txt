@@ -1,0 +1,195 @@
+tobias@buelte-ThinkPad-X1-Carbon-Gen-8:~/git/metafacture_workflows$ /home/tobias/git/metafacture-core/metafacture-runner/build/install/metafacture-core/flux.sh '/home/tobias/git/metafacture_workflows/getHbzIdFromLobid/getHbzIdFromLobid.flux'
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/tobias/git/metafacture-core/metafacture-runner/build/install/metafacture-core/lib/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/tobias/git/metafacture-core/metafacture-runner/build/install/metafacture-core/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370693599306441
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'ERROR': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"ERROR: "Not found: 990105669680206441""; line: 1, column: 6]' while processing object: ERROR: "Not found: 990105669680206441"
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'ERROR': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"ERROR: "Not found: 990154003160206441""; line: 1, column: 6]' while processing object: ERROR: "Not found: 990154003160206441"
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370698952906441
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'ERROR': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"ERROR: "Not found: 99370685827506441""; line: 1, column: 6]' while processing object: ERROR: "Not found: 99370685827506441"
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 990000167930306443
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'ERROR': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"ERROR: "Not found: 99371671391906441""; line: 1, column: 6]' while processing object: ERROR: "Not found: 99371671391906441"
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370683064406441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370686223506441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370691768806441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370686737106441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370686223106441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370688114906441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370685802706441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370686789106441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370686790306441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370696004506441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370696006406441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370695975906441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370683584806441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370697499206441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370690340106441
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'ERROR': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"ERROR: "Not found: 990207162470206441""; line: 1, column: 6]' while processing object: ERROR: "Not found: 990207162470206441"
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'ERROR': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"ERROR: "Not found: 990207162570206441""; line: 1, column: 6]' while processing object: ERROR: "Not found: 990207162570206441"
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'ERROR': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"ERROR: "Not found: 990194943290206441""; line: 1, column: 6]' while processing object: ERROR: "Not found: 990194943290206441"
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="de">
+    <head>
+        <title>lobid-resources</title>
+        <link rel="stylesheet" media="all" href="/resources/assets/stylesheets/bootstrap.min.css"/>
+        <link rel="stylesheet" media="all" href="/resources/assets/stylesheets/octicons.css"/>
+        <link rel="stylesheet" media="all" href="/resources/assets/stylesheets/jquery-ui.min.css"/>
+        <link rel="stylesheet" media="all" href='/resources/assets/stylesheets/font-awesome.min.css'/>
+        <lin"[truncated 7110 chars]; line: 7, column: 2]' while processing object: 
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="de">
+    <head>
+        <title>lobid-resources</title>
+        <link rel="stylesheet" media="all" href="/resources/assets/stylesheets/bootstrap.min.css"/>
+        <link rel="stylesheet" media="all" href="/resources/assets/stylesheets/octicons.css"/>
+        <link rel="stylesheet" media="all" href="/resources/assets/stylesheets/jquery-ui.min.css"/>
+        <link rel="stylesheet" media="all" href='/resources/assets/stylesheets/font-awesome.min.css'/>
+        <link rel="stylesheet" media="all" href="/resources/assets/stylesheets/resources.css"/>
+        <link rel="shortcut icon" type="image/png" href="/resources/assets/images/favicon.png"/>
+        
+        <script src="/resources/assets/javascripts/jquery-1.10.2.min.js"></script>
+        <script src="/resources/assets/javascripts/jquery-ui.min.js"></script>
+        <script src="/resources/assets/javascripts/bootstrap.min.js"></script>
+        <script src="/resources/assets/javascripts/Chart.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10">
+    </head>
+    <body onload="var q = document.getElementById('resourcesQuery'); if(q!=null){ q.focus(); };">
+        <div class="container">
+            <p/>
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container-fluid" id="header">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#resources-nav">
+                        <span class="sr-only">Navigation ein/ausblenden</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                     <span><img id="butterfly" src='/resources/assets/images/lobid.png' alt="lobid"/></span></a>
+                  </div>
+                  <div class="navbar-collapse collapse" id="resources-nav">
+                    <ul class="nav navbar-nav">
+                      <li  class="active" >
+                        <a href="/resources">resources</a>
+                      </li>
+                      <li >
+                        <a href="/resources/advanced">Erweiterte Suche</a>
+                      </li>
+                      <li >
+                        <a href="/resources/api">API</a>
+                      </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li ><a href="/resources/stars">Merkliste</a></li>
+                      <li class="divider"></li>
+                      <li  class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Info"><span class="glyphicon glyphicon-info-sign"></span><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li ><a href='/resources/dataset'>Datenbeschreibung</a></li>
+                          <li><a href="mailto:lobid-admin@hbz-nrw.de?subject=Feedback%20zu%20lobid-resources,%20aktuelle%20URL%20quaoar1.hbz-nrw.de%3A7507%2Fresources">Feedback zur aktuellen Seite</a></li>
+                          <li><a href="http://lobid.org/usage-policy/">Richtlinien API-Nutzung</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div><!--/.nav-collapse -->
+                </div><!--/.container-fluid -->
+            </div>
+            
+
+ 
+
+<form action="/resources/search" method="GET" id="resources-form">
+    
+    <div class="input-group" id="search-simple">
+      <input type="text" name="q" id="resourcesQuery" value="" class="form-control" autocomplete="off"
+          title='Suchanfrage. Boolesche Operatoren: AND, OR, AND NOT; Phrasensuche mit ""; Trunkierung mit *'
+          placeholder='Suchen in lobid-resources'/>
+      <span class="input-group-btn"><button class="btn btn-default" type="submit" title="Suchen">
+        <span class="glyphicon glyphicon-search"></span></button></span>
+    </div>
+
+</form>
+
+
+            
+    <div class="page-header">
+        <img class="media-object nrw-logo pull-right" src="/resources/assets/images/hbz.png" alt="hbz">
+        <h1>lobid-resources <small>&mdash; der hbz-Verbundkatalog als Linked Open Data</small></h1>
+    </div>
+    <div class="row">
+            <div class="col-md-12 intro">
+               <p class="lead">Der Verbundkatalog des Hochschulbibliothekszentrums NRW (hbz) enthält die kooperativ erstellten Nachweise von Titel- und Bestandsdaten der Verbundbibliotheken in Nordrhein-Westfalen und Rheinland-Pfalz.</p><p>Daneben sind die Nordrhein-Westfälische Bibliographie und alle Zeitschriften der Zeitschriftendatenbank (ZDB) in den hbz-Verbundkatalog integriert. Die von den Verbundbibliotheken und ihren zugeordneten Einrichtungen aktiv eingebrachten Bestände sind Grundlage für die Online-Fernleihe. Der hbz-Verbundkatalog wird ergänzt um die Bestandsnachweise einer Vielzahl öffentlicher und anderer Bibliotheken, die ihre Bestände maschinell an das hbz liefern.</p><p>Der Verbundkatalog hat einen Umfang von etwa 25 Millionen Titeldatensätzen plus Bestandsinformationen.</p>Das hbz, einige Kölner Bibliotheken und das Landesbibliothekszentrum Rheinland-Pfalz starteten 2010 eine Open-Data-Initiative mit der ersten Freigabe von Katalogdaten in Deutschland. Mittlerweile wird der gesamte hbz-Verbundkatalog unter <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> auf verschiedene Arten bereitgestellt: in dieser Oberfläche, als <a href="https://lobid.org/resources/api">Programmierschnittstelle (API)</a> für Suche und Direktzugriff, sowie als <a href="https://lobid.org/resources/api#bulk_downloads">Bulk-Downloads</a> über die API.
+               Weitere Informationen gibt es in der <a href="/resources/dataset?format=html">Datenbeschreibung</a>.
+            </div>
+    </div>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://lobid.org/resources",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://lobid.org/resources/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+            <div class="panel panel-default footer">
+              <div class="panel-body">
+                <span class="pull-left">
+                        <img src='/resources/assets/images/wappen.png' alt="NRW-Wappen"/> &nbsp;
+                        lobid-resources | ein Dienst des <a href='https://www.hbz-nrw.de/produkte/linked-open-data'>hbz</a>
+                </span>
+                <span class="pull-right">
+                        <a href="http://lobid.org/warranty">Gewährleistung</a> |
+                        <a href="https://www.hbz-nrw.de/impressum">Impressum</a> |
+                        <a href="https://github.com/hbz/lobid/blob/master/conf/Datenschutzerklaerung_lobid.textile">Datenschutz</a> |
+                    <a href="https://openbiblio.social/@lobid"><i class="fa-brands fa-mastodon" aria-hidden="true"></i> Mastodon</a>&nbsp;
+                        <a href="https://github.com/hbz/lobid-resources"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>&nbsp;
+                        <a href="http://blog.lobid.org"><i class="fa fa-pencil" aria-hidden="true"></i> Blog</a>
+                </span>
+              </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370695565206441
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'ERROR': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"ERROR: "Not found: 990227492510206441""; line: 1, column: 6]' while processing object: ERROR: "Not found: 990227492510206441"
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370688948206441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370685807106441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370685222206441
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'ERROR': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"ERROR: "Not found: 990227893900206441""; line: 1, column: 6]' while processing object: ERROR: "Not found: 990227893900206441"
+[main] ERROR org.metafacture.flowcontrol.ObjectExceptionCatcher - 'com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'ERROR': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"ERROR: "Not found: 990111993150206441""; line: 1, column: 6]' while processing object: ERROR: "Not found: 990111993150206441"
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370777663406441
+[main] INFO org.metafacture.metafix.FixMethod - NO NZ Record: 99370688470706441

@@ -10,8 +10,11 @@ retain('almaMmsId')")
 | catch-object-exception
 | decode-json
 | fix("
-move_field('almaMmsId','@almaMmsId')
-move_field('@almaMmsId','almaMmsId')
+unless any_equal('inCollection[].*.id', 'http://lobid.org/organisations/DE-655#!')
+	to_var('almaMmsId','ID')
+	log('NO NZ Record: $[ID]', level: 'INFO')
+	reject()
+end
 move_field('hbzId','@hbzId')
 move_field('@hbzId','hbzId')
 unless exists('hbzId')
