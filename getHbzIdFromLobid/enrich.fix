@@ -1,6 +1,6 @@
 do once("map")
-	put_filemap("getHbzIdFromLobid/rpbLobidMappingWithHT.tsv", "lobid_zdbId", sep_char:"\t",key_column:"0",value_column:"2",expected_columns:"-1")
-	put_filemap("getHbzIdFromLobid/rpbLobidMappingWithHT.tsv", "lobid_hbzId", sep_char:"\t",key_column:"0",value_column:"3",expected_columns:"-1")
+	put_filemap("getHbzIdFromLobid/rpbLobidMappingWithHT.tsv", "lobid_hbzId", sep_char:"\t",key_column:"0",value_column:"2",expected_columns:"-1")
+	put_filemap("getHbzIdFromLobid/rpbLobidMappingWithHT.tsv", "lobid_zdbId", sep_char:"\t",key_column:"0",value_column:"3",expected_columns:"-1")
 end
 
 copy_field("almaMmsId","hbzId")
@@ -10,3 +10,4 @@ lookup("hbzId","lobid_hbzId","default":"")
 lookup("zdbId","lobid_zdbId","default":"")
 
 
+  
