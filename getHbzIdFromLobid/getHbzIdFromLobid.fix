@@ -19,4 +19,4 @@ move_field("@zdbId","zdbId")
 unless exists("zdbId")
 	add_field("zdbId","")
 end
-retain("almaMmsId","hbzId","zdbId","rpbId")
+retain("almaMmsId","rpbId")
