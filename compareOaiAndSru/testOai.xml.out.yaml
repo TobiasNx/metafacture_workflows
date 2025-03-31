@@ -1,0 +1,533 @@
+---
+header:
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074302"
+  datestamp:
+    value: "2021-05-27"
+  setSpec:
+    value: "ddc:800"
+  setSpec:
+    value: "doc-type:CourseMaterial"
+metadata:
+  mods:
+    ID: "duepublico_mods_00074302"
+    location:
+      url:
+        access: "object in context"
+        value: "https://duepublico2.uni-due.de/receive/duepublico_mods_00074302"
+      url:
+        access: "raw object"
+        value: "https://duepublico2.uni-due.de/servlets/MCRFileNodeServlet/duepublico_derivate_00074185/sicherung-moodle-kaestner_zum_gebrauch-202104.mbz"
+      url:
+        access: "preview"
+        value: "https://duepublico2.uni-due.de/rsc/thumbnail/duepublico_mods_00074302.png"
+      url:
+        value: "https://moodle.uni-due.de/course/view.php?id=25871"
+    classification:
+      authorityURI: "https://duepublico.uni-due.de/api/v1/classifications/collection"
+      valueURI: "https://duepublico.uni-due.de/api/v1/classifications/collection#OER"
+    titleInfo:
+      type: "simple"
+      lang: "de"
+      title:
+        value: "Erich Kästner \"zum Gebrauch\""
+      subTitle:
+        value: "Unterrichtspraktische Anregungen für die Klassen 9 und 10"
+    name:
+      type: "personal"
+      type: "simple"
+      displayForm:
+        value: "Oeste, Bettina"
+      role:
+        roleTerm:
+          authority: "marcrelator"
+          type: "code"
+          value: "aut"
+        roleTerm:
+          authority: "marcrelator"
+          type: "text"
+          value: "Author"
+      namePart:
+        type: "family"
+        value: "Oeste"
+      namePart:
+        type: "given"
+        value: "Bettina"
+      nameIdentifier:
+        type: "gnd"
+        value: "121505002X"
+      nameIdentifier:
+        type: "lsf"
+        value: "44770"
+    name:
+      authorityURI: "https://duepublico.uni-due.de/api/v1/classifications/mir_institutes"
+      type: "corporate"
+      valueURI: "https://duepublico.uni-due.de/api/v1/classifications/mir_institutes#03.02.03"
+      type: "simple"
+      role:
+        roleTerm:
+          authority: "marcrelator"
+          type: "code"
+          value: "his"
+        roleTerm:
+          authority: "marcrelator"
+          type: "text"
+    genre:
+      authorityURI: "https://duepublico.uni-due.de/api/v1/classifications/mir_genres"
+      type: "intern"
+      valueURI: "https://duepublico.uni-due.de/api/v1/classifications/mir_genres#teaching_material"
+    genre:
+      authority: "marcgt"
+      value: "instruction"
+    classification:
+      authorityURI: "https://duepublico.uni-due.de/api/v1/classifications/diniPublType"
+      generator: "mir_genres2diniPublType-mycore"
+      valueURI: "https://duepublico.uni-due.de/api/v1/classifications/diniPublType#CourseMaterial"
+    classification:
+      authorityURI: "http://schema.org/"
+      generator: "mir_genres2schemaOrg-mycore"
+      valueURI: "http://schema.org/CreativeWork"
+    typeOfResource:
+      value: "mixed material"
+    language:
+      languageTerm:
+        authority: "rfc5646"
+        type: "code"
+        value: "de"
+    classification:
+      authorityURI: "https://duepublico.uni-due.de/api/v1/classifications/destatis"
+      valueURI: "https://duepublico.uni-due.de/api/v1/classifications/destatis#1080"
+    classification:
+      authorityURI: "http://www.mycore.org/classifications/itunes-podcast"
+      valueURI: "http://www.mycore.org/classifications/itunes-podcast#Courses"
+    subject:
+      type: "simple"
+      topic:
+        value: "Kästner"
+    originInfo:
+      eventType: "publication"
+      dateIssued:
+        encoding: "w3cdtf"
+        value: "2021"
+    abstract:
+      altFormat: "data:text/xml;charset=UTF-8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48YWJzdHJhY3QgYWx0UmVwR3JvdXA9IjRkLWE3ZDItYmZjMTkwZWI4NjQwIiB4bWw6bGFuZz0iZGUiPlRyb3R6IOKAkyBvZGVyIGdlcmFkZSB3ZWdlbiDigJMgc2VpbmVzIGhvaGVuIEJla2FubnRoZWl0c2dyYWRzIGlzdCBFcmljaCBLw6RzdG5lciBpbiBkZXIgbGl0ZXJhdHVyd2lzc2Vuc2NoYWZ0bGljaGVuIEZhY2h3ZWx0IG5pY2h0IHVudW1zdHJpdHRlbi4gVm9yIGFsbGVtIGhhYmVuIGlobSBzZWluIHByYWdtYXRpc2NoZXIgU2NocmVpYnN0aWwsIGRpZSBEaXJla3RoZWl0IHNlaW5lciBXb3J0ZSB1bmQgZGllIEVpbmRldXRpZ2tlaXQgc2VpbmVyIGxpdGVyYXJpc2NoZW4gQm90c2NoYWZ0ZW4gZGVuIFJ1ZiBkZXMgR2VicmF1Y2hzc2NocmlmdHN0ZWxsZXJzIGVpbmdlYnJhY2h0LiBEaWUgZGFtaXQgZWluaGVyZ2VoZW5kZSBsZWljaHRlIFp1Z8OkbmdsaWNoa2VpdCBzZWluZXMgV2Vya3Mgc3RlbGx0IGltIHNjaHVsaXNjaGVuIFVudGVycmljaHQgZWluZW4gZGlkYWt0aXNjaGVuIE1laHJ3ZXJ0IGRhciwgZGVyIGltIFp1Z2UgZWluZXIgQmxlbmRlZCBMZWFybmluZy1VbnRlcnJpY2h0c2VpbmhlaXQgbWl0IGRlciBMZXJucGxhdHRmb3JtIE1vb2RsZSBsZXJuemllbGtvbmZvcm0gZsO8ciBkZW4gTHlyaWt1bnRlcnJpY2h0IGluIGRlbiBLbGFzc2VuIDkgdW5kIDEwIOKAnmdlYnJhdWNodOKAnCB3ZXJkZW4ga2FubiDigJMgZ2VnZWJlbmVuZmFsbHMgYXVjaCBhdWYgRGlzdGFuei4gQW5hbG9nIHp1IGRlbiBVbnRlcnJpY2h0c2lkZWVuIHZvbiBCZXR0aW5hIE9lc3RlLCBkaWUgc2ljaCB1bnRlciBkZW0gVGl0ZWwgS8Okc3RuZXIgenVtIEdlYnJhdWNoIGltIEhlZnQgMy0yMDIxIGRlciBaZWl0c2NocmlmdCAiRGV1dHNjaHVudGVycmljaHQiIChXZXN0ZXJtYW5uIFZlcmxhZykgbmFjaGxlc2VuIGxhc3Nlbiwgd3VyZGUgaW0gRm9sZ2VuZGVuIGVpbiBNdXN0ZXJrdXJzcmF1bSBhbmdlbGVndCwgaW4gZGVtIGRpZSBkb3J0aWdlbiBVbnRlcnJpY2h0dm9yc2NobMOkZ2UgbWl0IGdlZWlnbmV0ZW4gTW9vZGxlLUFrdGl2aXTDpHRlbiBpbiBlaW4gRS1MZWFybmluZy1Lb256ZXB0IMO8YmVyZsO8aHJ0IHd1cmRlbi4gRGVyIEt1cnNyYXVtIHNvbGwgZGVuIExlc2VyaW5uZW4gdW5kIExlc2VybiBkZXIgWmVpdHNjaHJpZnQgKHNvd2llIGFuZGVyd2VpdGlnIEludGVyZXNzaWVydGVuKSBzb21pdCBhbHMgTXVzdGVyIHVuZCBBbnNjaGF1dW5nIGRpZW5lbiwga2FubiBhYmVyIGplIG5hY2ggQmVkYXJmIGF1Y2ggYWJnZXdhbmRlbHQgdW5kIHZhcmllcnQgd2VyZGVuLiBHw6RzdGUgZGllc2VzIFJhdW1lcyBoYWJlbiBkaWUgTcO2Z2xpY2hrZWl0LCBkaWUgSW5oYWx0ZSBkZXMgUmF1bXMgdW50ZXIgZm9sZ2VuZGVyIExpemVueiBuYWNoenVudXR6ZW46IENyZWF0aXZlIENvbW1vbnMgTmFtZW5zbmVubnVuZyAtIFdlaXRlcmdhYmUgdW50ZXIgZ2xlaWNoZW4gQmVkaW5ndW5nZW4gNC4wIExpemVueiAoQ0MgQlktU0EgNC4wKTwvYWJzdHJhY3Q+"
+      altRepGroup: "4d-a7d2-bfc190eb8640"
+      contentType: "text/xml"
+      type: "simple"
+      lang: "de"
+    abstract:
+      altRepGroup: "4d-a7d2-bfc190eb8640"
+      type: "simple"
+      lang: "de"
+      value: "Trotz – oder gerade wegen – seines hohen Bekanntheitsgrads ist Erich\
+        \ Kästner in der literaturwissenschaftlichen Fachwelt nicht unumstritten.\
+        \ Vor allem haben ihm sein pragmatischer Schreibstil, die Direktheit seiner\
+        \ Worte und die Eindeutigkeit seiner literarischen Botschaften den Ruf des\
+        \ Gebrauchsschriftstellers eingebracht. Die damit einhergehende leichte Zugä\
+        nglichkeit seines Werks stellt im schulischen Unterricht einen didaktischen\
+        \ Mehrwert dar, der im Zuge einer Blended Learning-Unterrichtseinheit mit\
+        \ der Lernplattform Moodle lernzielkonform für den Lyrikunterricht in den\
+        \ Klassen 9 und 10 „gebraucht“ werden kann – gegebenenfalls auch auf Distanz.\
+        \ Analog zu den Unterrichtsideen von Bettina Oeste, die sich unter dem Titel\
+        \ Kästner zum Gebrauch im Heft 3-2021 der Zeitschrift \"Deutschunterricht\"\
+        \ (Westermann Verlag) nachlesen lassen, wurde im Folgenden ein Musterkursraum\
+        \ angelegt, in dem die dortigen Unterrichtvorschläge mit geeigneten Moodle-Aktivitä\
+        ten in ein E-Learning-Konzept überführt wurden. Der Kursraum soll den Leserinnen\
+        \ und Lesern der Zeitschrift (sowie anderweitig Interessierten) somit als\
+        \ Muster und Anschauung dienen, kann aber je nach Bedarf auch abgewandelt\
+        \ und variert werden. Gäste dieses Raumes haben die Möglichkeit, die Inhalte\
+        \ des Raums unter folgender Lizenz nachzunutzen: Creative Commons Namensnennung\
+        \ - Weitergabe unter gleichen Bedingungen 4.0 Lizenz (CC BY-SA 4.0)"
+    accessCondition:
+      type: "use and reproduction"
+      href: "https://duepublico.uni-due.de/api/v1/classifications/mir_licenses#cc_by-sa_4.0"
+      type: "simple"
+    classification:
+      authority: "sdnb"
+      displayLabel: "sdnb"
+      value: "800"
+    note:
+      type: "requirements"
+      type: "simple"
+      value: "Der Kurs ist in der Moodle-Instanz Version 3.5 der Universität Duisburg-Essen\
+        \ erstellt worden. Die Datei wird als Moodle-Sicherungsdatei zur Verfügung\
+        \ gestellt und kann auf einer eigenen Moodle-Installation wiederhergestellt\
+        \ werden. Der Kurs kann für einen ersten Eindruck als Gast über die UDE-Instanz\
+        \ eingesehen werden (siehe Link URL)."
+    note:
+      type: "requirements"
+      type: "simple"
+      value: "Im Moodle-Kurs werden folgende Lernaktivitäten verwendet, die nicht\
+        \ in einer Standard-Moodle-Installation installiert bzw. aktiviert sind: Chat,\
+        \ Etherpad, Gruppenwahl, BigBlueButton"
+    note:
+      type: "performers"
+      type: "simple"
+      value: "<p>Bei Nachnutzung des Kurses freut sich Bettina Oeste über eine entsprechende\
+        \ Nachricht an:&#xa0;bettina.oeste@uni-due.de</p>"
+    identifier:
+      type: "citekey"
+      value: "duepublico_mods_00074302"
+    identifier:
+      type: "uri"
+      value: "https://duepublico2.uni-due.de/receive/duepublico_mods_00074302"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074413"
+  datestamp:
+    value: "2021-05-18"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_derivate_00074060"
+  datestamp:
+    value: "2021-05-19"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074457"
+  datestamp:
+    value: "2021-05-30"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074434"
+  datestamp:
+    value: "2021-05-25"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074456"
+  datestamp:
+    value: "2021-05-29"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074433"
+  datestamp:
+    value: "2021-05-24"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074455"
+  datestamp:
+    value: "2021-05-27"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074439"
+  datestamp:
+    value: "2021-05-25"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074416"
+  datestamp:
+    value: "2021-05-17"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074415"
+  datestamp:
+    value: "2021-05-15"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_derivate_00074183"
+  datestamp:
+    value: "2021-05-27"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074296"
+  datestamp:
+    value: "2021-05-19"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074450"
+  datestamp:
+    value: "2021-05-27"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074454"
+  datestamp:
+    value: "2021-05-27"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074431"
+  datestamp:
+    value: "2021-05-24"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074453"
+  datestamp:
+    value: "2021-05-27"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074430"
+  datestamp:
+    value: "2021-05-22"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074452"
+  datestamp:
+    value: "2021-05-27"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074451"
+  datestamp:
+    value: "2021-05-27"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074419"
+  datestamp:
+    value: "2021-05-18"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_derivate_00074158"
+  datestamp:
+    value: "2021-05-15"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074425"
+  datestamp:
+    value: "2021-05-21"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074447"
+  datestamp:
+    value: "2021-05-27"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074424"
+  datestamp:
+    value: "2021-05-20"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074446"
+  datestamp:
+    value: "2021-05-26"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074445"
+  datestamp:
+    value: "2021-05-26"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074444"
+  datestamp:
+    value: "2021-05-26"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074466"
+  datestamp:
+    value: "2021-05-31"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074429"
+  datestamp:
+    value: "2021-05-21"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074428"
+  datestamp:
+    value: "2021-05-21"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074427"
+  datestamp:
+    value: "2021-05-21"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074449"
+  datestamp:
+    value: "2021-05-27"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074426"
+  datestamp:
+    value: "2021-05-21"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074448"
+  datestamp:
+    value: "2021-05-27"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074461"
+  datestamp:
+    value: "2021-05-31"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074460"
+  datestamp:
+    value: "2021-05-31"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074421"
+  datestamp:
+    value: "2021-05-19"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074443"
+  datestamp:
+    value: "2021-05-26"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074465"
+  datestamp:
+    value: "2021-05-31"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074420"
+  datestamp:
+    value: "2021-05-18"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074442"
+  datestamp:
+    value: "2021-05-26"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_mods_00074440"
+  datestamp:
+    value: "2021-05-26"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_derivate_00074164"
+  datestamp:
+    value: "2021-05-19"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_derivate_00074165"
+  datestamp:
+    value: "2021-05-19"
+
+---
+header:
+  status: "deleted"
+  identifier:
+    value: "oai:oer.uni-due.de:duepublico_derivate_00074201"
+  datestamp:
+    value: "2021-05-31"
