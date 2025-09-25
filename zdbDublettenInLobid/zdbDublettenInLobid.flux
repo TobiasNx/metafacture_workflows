@@ -1,7 +1,7 @@
 default infile = "/home/tobias/ezdb.gz";
 
 // Datei generiert mit:
-//$ curl --header "Accept-Encoding: gzip" "http://lobid.org/resources/search?q=_exists_%3A%22zdbId%22+AND+medium.id%3A%22http%3A%2F%2Frdaregistry.info%2FtermList%2FRDAMediaType%2F1003%22&format=jsonl" > ezdb.gz
+//$ curl --header "Accept-Encoding: gzip" "https://lobid.org/resources/search?q=inCollection.id%3A%22http%3A%2F%2Flobid.org%2Forganisations%2FDE-655%23%21%22+AND+_exists_%3AzdbId&format=jsonnl" > ezdb.gz
 
 
 infile
@@ -10,9 +10,9 @@ infile
 | decode-json
 | fix(FLUX_DIR + "ezdbId.fix")
 | stream-to-triples(redirect="true")
-| sort-triples(by="subject")
+| sort-triples(by="all")
 | collect-triples
 | fix(FLUX_DIR + "ezdbId2.fix")
 | encode-csv(includeHeader="TRUE", separator="\t", noQuotes="true")
-| write(FLUX_DIR + "duplicateZDB.tsv")
+| write(FLUX_DIR + "duplicateZDB_nurNZneu.tsv")
 ;
