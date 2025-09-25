@@ -1,0 +1,90 @@
+move_field("id","@id")
+move_field("@id","id")
+
+move_field("name","@name")
+move_field("@name","name")
+
+copy_field("creator[].*.name","creatorName.$append")
+join_field("creatorName",", ")
+unless exists("creatorName")
+    add_field("creatorName","")
+end
+
+copy_field("contributor[].*.name","contributorName.$append")
+join_field("contributorName",", ")
+unless exists("contributorName")
+    add_field("contributorName","")
+end
+
+copy_field("about[].*.prefLabel.de","aboutLabels.$append")
+join_field("aboutLabels",", ")
+unless exists("aboutLabels")
+    add_field("aboutLabels","")
+end
+
+move_field("publisher[]", "@publisher")
+do list(path:"@publisher","var":"$i")
+    unless exists("publisher.2")
+        copy_field("$i.name","publisher[].$append.name")
+        copy_field("$i.id","publisher[].$last.id")
+        unless exists("publisher[].$last.id")
+            add_field("publisher[].$last.id","")
+        end
+    end
+end
+
+unless exists ("publisher[]")
+    add_array("publisher[]")
+    add_field("publisher[].$append.name","")
+    add_field("publisher[].$last.id","")
+    add_field("publisher[].$append.name","")
+    add_field("publisher[].$last.id","")
+end
+
+unless exists ("publisher[].2")
+    add_array("publisher[]")
+    add_field("publisher[].$append.name","")
+    add_field("publisher[].$last.id","")
+end
+
+copy_field("inLanguage[]","inLanguage.$append")
+join_field("inLanguage",", ")
+unless exists("inLanguage")
+    add_field("inLanguage","")
+end
+
+move_field("mainEntitiyOfPage[]", "@mainEntitiyOfPage")
+do list(path:"@mainEntitiyOfPage","var":"$i")
+    unless exists("mainEntitiyOfPage[].2")
+        copy_field("$i.name","mainEntitiyOfPage[].$append.provider.name")
+        copy_field("$i.id","mainEntitiyOfPage[].$last.id")
+    end
+end
+
+unless exists ("mainEntitiyOfPage[]")
+    add_array("mainEntitiyOfPage[]")
+    add_field("mainEntitiyOfPage[].$append.provider.name","")
+    add_field("mainEntitiyOfPage[].$last.id","")
+    add_field("mainEntitiyOfPage[].$append.provider.name","")
+    add_field("mainEntitiyOfPage[].$last.id","")
+end
+
+unless exists ("mainEntitiyOfPage[].2")
+    add_array("mainEntitiyOfPage[]")
+    add_field("mainEntitiyOfPage[].$append.provider.name","")
+    add_field("mainEntitiyOfPage[].$last.id","")
+end
+
+move_field("dateCreated","@dateCreated")
+move_field("@dateCreated","dateCreated")
+unless exists("dateCreated")
+    add_field("dateCreated","")
+end
+
+move_field("datePublished","@datePublished")
+move_field("@datePublished","datePublished")
+unless exists("datePublished")
+    add_field("datePublished","")
+end
+
+retain("id","name", "datePublished","dateCreated","mainEntitiyOfPage[]","inLanguage","publisher[]","aboutLabels","contributorName","creatorName")
