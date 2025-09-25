@@ -1,16 +1,2533 @@
 {
-  "title" : [ {
-    "mainTitle" : "La Primavera",
-    "inLanguage" : "it"
-  }, {
-    "mainTitle" : "Spring",
-    "inLanguage" : "en"
-  }, {
-    "mainTitle" : "Der Frühling",
-    "inLanguage" : "de"
-  }, {
-    "mainTitle" : "Allégorie du Printemps",
-    "inLanguage" : "fr"
-  } ],
-  "id" : "DE-Mb112/lido-obj00154983"
+  "xsi:schemaLocation" : "http://www.lido-schema.org http://www.lido-schema.org/schema/v1.1/lido-v1.1.xsd",
+  "lido:lidoRecID" : {
+    "lido:source" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg",
+    "lido:type" : "http://terminology.lido-schema.org/lido00100",
+    "value" : "DE-Mb112/lido-obj00154983"
+  },
+  "lido:objectPublishedID" : {
+    "lido:type" : "http://terminology.lido-schema.org/lido00099",
+    "lido:pref" : "http://terminology.lido-schema.org/lido00170",
+    "value" : "https://www.uffizi.it/opere/botticelli-primavera"
+  },
+  "lido:objectPublishedID" : {
+    "lido:type" : "http://terminology.lido-schema.org/lido00099",
+    "lido:pref" : "http://terminology.lido-schema.org/lido00170",
+    "value" : "https://d-nb.info/gnd/4069615-7"
+  },
+  "lido:category" : {
+    "skos:Concept" : {
+      "rdf:about" : "http://terminology.lido-schema.org/lido00096",
+      "skos:prefLabel" : {
+        "xml:lang" : "en",
+        "value" : "Human-made object"
+      },
+      "skos:exactMatch" : {
+        "value" : "http://vocab.getty.edu/aat/300386957"
+      },
+      "skos:exactMatch" : {
+        "value" : "http://erlangen-crm.org/current/E22_Human-Made_Object"
+      }
+    },
+    "lido:term" : {
+      "lido:addedSearchTerm" : "yes",
+      "value" : "man-made object"
+    }
+  },
+  "lido:descriptiveMetadata" : {
+    "xml:lang" : "de",
+    "lido:objectClassificationWrap" : {
+      "lido:objectWorkTypeWrap" : {
+        "lido:objectWorkType" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00789",
+          "skos:Concept" : {
+            "rdf:about" : "http://vocab.getty.edu/aat/300033618",
+            "skos:prefLabel" : {
+              "xml:lang" : "en",
+              "value" : "painting (visual work)"
+            },
+            "skos:prefLabel" : {
+              "xml:lang" : "de",
+              "value" : "Gemälde"
+            },
+            "skos:altLabel" : {
+              "xml:lang" : "de",
+              "value" : "Malerei (visuelles Werk)"
+            },
+            "skos:altLabel" : {
+              "xml:lang" : "de",
+              "value" : "Malereien (visuelle Werke)"
+            }
+          }
+        }
+      },
+      "lido:classificationWrap" : {
+        "lido:classification" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00853",
+          "lido:conceptID" : {
+            "lido:type" : "http://terminology.lido-schema.org/lido00100",
+            "lido:source" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg. DDK-Thesaurus",
+            "value" : "48835800"
+          },
+          "lido:term" : {
+            "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+            "value" : "Malerei"
+          },
+          "lido:term" : {
+            "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+            "xml:lang" : "en",
+            "value" : "painting (classification)"
+          }
+        }
+      }
+    },
+    "lido:objectIdentificationWrap" : {
+      "lido:titleWrap" : {
+        "lido:titleSet" : {
+          "lido:type" : "http://vocab.getty.edu/aat/300417206",
+          "lido:appellationValue" : {
+            "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+            "xml:lang" : "it",
+            "value" : "La Primavera"
+          },
+          "lido:appellationValue" : {
+            "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+            "xml:lang" : "en",
+            "value" : "Spring"
+          },
+          "lido:sourceAppellation" : {
+            "value" : "Le Gallerie degli Uffizi. URL: https://www.uffizi.it/opere/botticelli-primavera [2021-12-10]"
+          }
+        },
+        "lido:titleSet" : {
+          "lido:type" : "http://vocab.getty.edu/aat/300417206",
+          "lido:appellationValue" : {
+            "lido:pref" : "http://terminology.lido-schema.org/lido00170",
+            "xml:lang" : "it",
+            "value" : "allegoria della primavera"
+          },
+          "lido:sourceAppellation" : {
+            "value" : "Le Gallerie degli Uffizi. Schede di catalogo. URL: http://catalogo.uffizi.it/it/29/ricerca/detailiccd/1185170 [2021-12-10]"
+          }
+        },
+        "lido:titleSet" : {
+          "lido:type" : "http://vocab.getty.edu/aat/300417206",
+          "lido:appellationValue" : {
+            "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+            "xml:lang" : "de",
+            "value" : "Der Frühling"
+          },
+          "lido:sourceAppellation" : {
+            "value" : "Fossi, Gloria: Die Uffizien: Offizieller Führer. Alle Werke, 2005. S. 76"
+          }
+        },
+        "lido:titleSet" : {
+          "lido:type" : "http://vocab.getty.edu/aat/300417206",
+          "lido:appellationValue" : {
+            "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+            "xml:lang" : "fr",
+            "value" : "Allégorie du Printemps"
+          },
+          "lido:sourceAppellation" : {
+            "value" : "Maison Ad. Braun et Cie Catalogue Général 1907, S. 82"
+          }
+        }
+      },
+      "lido:repositoryWrap" : {
+        "lido:repositorySet" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido01017",
+          "lido:displayRepository" : {
+            "value" : "Galleria degli Uffizi (Florenz), Saal 10-14"
+          },
+          "lido:repositoryName" : {
+            "lido:legalBodyID" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00099",
+              "value" : "http://vocab.getty.edu/ulan/500125191"
+            },
+            "lido:legalBodyName" : {
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "it",
+                "value" : "Galleria degli Uffizi"
+              },
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "de",
+                "value" : "Uffizien"
+              },
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "en",
+                "value" : "Uffizi Gallery"
+              }
+            },
+            "lido:legalBodyWeblink" : {
+              "value" : "https://www.uffizi.it/"
+            }
+          },
+          "lido:workID" : {
+            "lido:type" : "http://terminology.lido-schema.org/lido00113",
+            "value" : "8360 (Inv. 1890)"
+          },
+          "lido:repositoryLocation" : {
+            "lido:gml" : {
+              "gml:Point" : {
+                "gml:pos" : {
+                  "value" : "43.768439 11.2559"
+                }
+              }
+            },
+            "lido:partOfPlace" : {
+              "lido:placeID" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                "value" : "http://www.wikidata.org/wiki/Q2044"
+              },
+              "lido:namePlaceSet" : {
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "xml:lang" : "en",
+                  "value" : "Florence"
+                },
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "xml:lang" : "it",
+                  "value" : "Firenze"
+                },
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "xml:lang" : "de",
+                  "value" : "Florenz"
+                }
+              },
+              "lido:gml" : {
+                "gml:Point" : {
+                  "gml:pos" : {
+                    "value" : "43.771389 11.254167"
+                  }
+                }
+              },
+              "lido:partOfPlace" : {
+                "lido:placeID" : {
+                  "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                  "value" : "http://www.wikidata.org/wiki/Q18288148"
+                },
+                "lido:namePlaceSet" : {
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "en",
+                    "value" : "Metropolitan City of Florence"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "de",
+                    "value" : "Metropolitanstadt Florenz"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "it",
+                    "value" : "Città metropolitana di Firenze"
+                  }
+                },
+                "lido:gml" : {
+                  "gml:Point" : {
+                    "gml:pos" : {
+                      "value" : "43.83333 11.33333"
+                    }
+                  }
+                },
+                "lido:partOfPlace" : {
+                  "lido:placeID" : {
+                    "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                    "value" : "http://www.wikidata.org/wiki/Q1273"
+                  },
+                  "lido:namePlaceSet" : {
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "en",
+                      "value" : "Tuscany"
+                    },
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "de",
+                      "value" : "Toskana"
+                    },
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "it",
+                      "value" : "Toscana"
+                    }
+                  },
+                  "lido:gml" : {
+                    "gml:Point" : {
+                      "gml:pos" : {
+                        "value" : "43.41667 11"
+                      }
+                    }
+                  },
+                  "lido:partOfPlace" : {
+                    "lido:placeID" : {
+                      "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                      "value" : "http://www.wikidata.org/wiki/Q38"
+                    },
+                    "lido:namePlaceSet" : {
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "en",
+                        "value" : "Italy"
+                      },
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "de",
+                        "value" : "Italien"
+                      },
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "it",
+                        "value" : "Italia"
+                      }
+                    },
+                    "lido:gml" : {
+                      "gml:Point" : {
+                        "gml:pos" : {
+                          "value" : "42.5 12.5"
+                        }
+                      }
+                    },
+                    "lido:placeClassification" : {
+                      "skos:Concept" : {
+                        "rdf:about" : "http://www.wikidata.org/wiki/Q6256",
+                        "skos:prefLabel" : {
+                          "xml:lang" : "en",
+                          "value" : "country"
+                        },
+                        "skos:prefLabel" : {
+                          "xml:lang" : "de",
+                          "value" : "Land"
+                        },
+                        "skos:altLabel" : {
+                          "xml:lang" : "de",
+                          "value" : "Staat"
+                        },
+                        "skos:mappingRelation" : {
+                          "value" : "http://vocab.getty.edu/aat/300387506"
+                        },
+                        "skos:mappingRelation" : {
+                          "value" : "http://d-nb.info/gnd/4056618-3"
+                        }
+                      }
+                    }
+                  },
+                  "lido:placeClassification" : {
+                    "skos:Concept" : {
+                      "rdf:about" : "http://www.wikidata.org/wiki/Q16110",
+                      "skos:prefLabel" : {
+                        "xml:lang" : "en",
+                        "value" : "region of                                                 Italy"
+                      },
+                      "skos:prefLabel" : {
+                        "xml:lang" : "de",
+                        "value" : "Region in                                                 Italien"
+                      },
+                      "skos:mappingRelation" : {
+                        "value" : "http://vocab.getty.edu/aat/300236112"
+                      }
+                    }
+                  }
+                },
+                "lido:placeClassification" : {
+                  "skos:Concept" : {
+                    "rdf:about" : "http://www.wikidata.org/wiki/Q15110",
+                    "skos:prefLabel" : {
+                      "xml:lang" : "en",
+                      "value" : "metropolitan city of                                             Italy"
+                    },
+                    "skos:prefLabel" : {
+                      "xml:lang" : "de",
+                      "value" : "Metropolitanstadt"
+                    },
+                    "skos:mappingRelation" : {
+                      "value" : "http://vocab.getty.edu/aat/300132618"
+                    },
+                    "skos:mappingRelation" : {
+                      "value" : "http://d-nb.info/gnd/1114188395"
+                    }
+                  }
+                }
+              },
+              "lido:placeClassification" : {
+                "skos:Concept" : {
+                  "rdf:about" : "http://www.wikidata.org/wiki/Q515",
+                  "skos:prefLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "city"
+                  },
+                  "skos:prefLabel" : {
+                    "xml:lang" : "de",
+                    "value" : "Stadt"
+                  },
+                  "skos:mappingRelation" : {
+                    "value" : "http://vocab.getty.edu/aat/300008389"
+                  },
+                  "skos:mappingRelation" : {
+                    "value" : "http://d-nb.info/gnd/4056723-0"
+                  }
+                }
+              }
+            },
+            "lido:placeClassification" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://vocab.getty.edu/aat/300005768",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "museums (buildings)"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Museen"
+                },
+                "skos:altLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Museum"
+                }
+              },
+              "lido:term" : {
+                "xml:lang" : "de",
+                "value" : "Museum (Gebäude)"
+              }
+            }
+          }
+        },
+        "lido:repositorySet" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido01019",
+          "lido:displayRepository" : {
+            "value" : "Accademia di Belle Arti di Firenze (Florenz)"
+          },
+          "lido:repositoryName" : {
+            "lido:legalBodyID" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00099",
+              "value" : "https://sws.geonames.org/7302749/"
+            },
+            "lido:legalBodyName" : {
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "it",
+                "value" : "Accademia di Belle Arti di Firenze"
+              },
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "de",
+                "value" : "Accademia di Belle Arti (Florenz)"
+              },
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "en",
+                "value" : "Academy of Fine Arts, Florence"
+              }
+            }
+          },
+          "lido:repositoryLocation" : {
+            "lido:gml" : {
+              "gml:Point" : {
+                "gml:pos" : {
+                  "value" : "43.77691 11.25848"
+                }
+              }
+            },
+            "lido:partOfPlace" : {
+              "lido:placeID" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                "value" : "http://www.wikidata.org/wiki/Q2044"
+              },
+              "lido:namePlaceSet" : {
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "xml:lang" : "en",
+                  "value" : "Florence"
+                },
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "xml:lang" : "it",
+                  "value" : "Firenze"
+                },
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "xml:lang" : "de",
+                  "value" : "Florenz"
+                }
+              },
+              "lido:gml" : {
+                "gml:Point" : {
+                  "gml:pos" : {
+                    "value" : "43.771389 11.254167"
+                  }
+                }
+              },
+              "lido:partOfPlace" : {
+                "lido:placeID" : {
+                  "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                  "value" : "http://www.wikidata.org/wiki/Q18288148"
+                },
+                "lido:namePlaceSet" : {
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "en",
+                    "value" : "Metropolitan City of Florence"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "de",
+                    "value" : "Metropolitanstadt Florenz"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "it",
+                    "value" : "Città metropolitana di Firenze"
+                  }
+                },
+                "lido:gml" : {
+                  "gml:Point" : {
+                    "gml:pos" : {
+                      "value" : "43.83333 11.33333"
+                    }
+                  }
+                },
+                "lido:partOfPlace" : {
+                  "lido:placeID" : {
+                    "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                    "value" : "http://www.wikidata.org/wiki/Q1273"
+                  },
+                  "lido:namePlaceSet" : {
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "en",
+                      "value" : "Tuscany"
+                    },
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "de",
+                      "value" : "Toskana"
+                    },
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "it",
+                      "value" : "Toscana"
+                    }
+                  },
+                  "lido:gml" : {
+                    "gml:Point" : {
+                      "gml:pos" : {
+                        "value" : "43.41667 11"
+                      }
+                    }
+                  },
+                  "lido:partOfPlace" : {
+                    "lido:placeID" : {
+                      "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                      "value" : "http://www.wikidata.org/wiki/Q38"
+                    },
+                    "lido:namePlaceSet" : {
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "en",
+                        "value" : "Italy"
+                      },
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "de",
+                        "value" : "Italien"
+                      },
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "it",
+                        "value" : "Italia"
+                      }
+                    },
+                    "lido:gml" : {
+                      "gml:Point" : {
+                        "gml:pos" : {
+                          "value" : "42.5 12.5"
+                        }
+                      }
+                    },
+                    "lido:placeClassification" : {
+                      "skos:Concept" : {
+                        "rdf:about" : "http://www.wikidata.org/wiki/Q6256",
+                        "skos:prefLabel" : {
+                          "xml:lang" : "en",
+                          "value" : "country"
+                        },
+                        "skos:prefLabel" : {
+                          "xml:lang" : "de",
+                          "value" : "Land"
+                        },
+                        "skos:altLabel" : {
+                          "xml:lang" : "de",
+                          "value" : "Staat"
+                        },
+                        "skos:mappingRelation" : {
+                          "value" : "http://vocab.getty.edu/aat/300387506"
+                        },
+                        "skos:mappingRelation" : {
+                          "value" : "http://d-nb.info/gnd/4056618-3"
+                        }
+                      }
+                    }
+                  },
+                  "lido:placeClassification" : {
+                    "skos:Concept" : {
+                      "rdf:about" : "http://www.wikidata.org/wiki/Q16110",
+                      "skos:prefLabel" : {
+                        "xml:lang" : "en",
+                        "value" : "region of                                                 Italy"
+                      },
+                      "skos:prefLabel" : {
+                        "xml:lang" : "de",
+                        "value" : "Region in                                                 Italien"
+                      },
+                      "skos:mappingRelation" : {
+                        "value" : "http://vocab.getty.edu/aat/300236112"
+                      }
+                    }
+                  }
+                },
+                "lido:placeClassification" : {
+                  "skos:Concept" : {
+                    "rdf:about" : "http://www.wikidata.org/wiki/Q15110",
+                    "skos:prefLabel" : {
+                      "xml:lang" : "en",
+                      "value" : "metropolitan city of                                             Italy"
+                    },
+                    "skos:prefLabel" : {
+                      "xml:lang" : "de",
+                      "value" : "Metropolitanstadt"
+                    },
+                    "skos:mappingRelation" : {
+                      "value" : "http://vocab.getty.edu/aat/300132618"
+                    },
+                    "skos:mappingRelation" : {
+                      "value" : "http://d-nb.info/gnd/1114188395"
+                    }
+                  }
+                }
+              },
+              "lido:placeClassification" : {
+                "skos:Concept" : {
+                  "rdf:about" : "http://www.wikidata.org/wiki/Q515",
+                  "skos:prefLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "city"
+                  },
+                  "skos:prefLabel" : {
+                    "xml:lang" : "de",
+                    "value" : "Stadt"
+                  },
+                  "skos:mappingRelation" : {
+                    "value" : "http://vocab.getty.edu/aat/300008389"
+                  },
+                  "skos:mappingRelation" : {
+                    "value" : "http://d-nb.info/gnd/4056723-0"
+                  }
+                }
+              }
+            },
+            "lido:placeClassification" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://vocab.getty.edu/aat/300311640",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "art schools                                     (institutions)"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Kunstakademie"
+                },
+                "skos:altLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Kunsthochschule"
+                }
+              }
+            }
+          }
+        },
+        "lido:repositorySet" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido01019",
+          "lido:displayRepository" : {
+            "value" : "Palazzo Medici-Riccardi (Florenz), Geltungsdauer: 1498/1516"
+          },
+          "lido:repositoryName" : {
+            "lido:legalBodyID" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00099",
+              "value" : "https://sws.geonames.org/8299698/"
+            },
+            "lido:legalBodyName" : {
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "it",
+                "value" : "Palazzo Medici-Riccardi"
+              },
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "de",
+                "value" : "Palazzo Medici-Riccardi"
+              },
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "en",
+                "value" : "Palazzo Medici-Riccardi"
+              }
+            }
+          },
+          "lido:repositoryLocation" : {
+            "lido:gml" : {
+              "gml:Point" : {
+                "gml:pos" : {
+                  "value" : "43.77559 11.25554"
+                }
+              }
+            },
+            "lido:partOfPlace" : {
+              "lido:placeID" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                "value" : "http://www.wikidata.org/wiki/Q2044"
+              },
+              "lido:namePlaceSet" : {
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "xml:lang" : "en",
+                  "value" : "Florence"
+                },
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "xml:lang" : "it",
+                  "value" : "Firenze"
+                },
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "xml:lang" : "de",
+                  "value" : "Florenz"
+                }
+              },
+              "lido:gml" : {
+                "gml:Point" : {
+                  "gml:pos" : {
+                    "value" : "43.771389 11.254167"
+                  }
+                }
+              },
+              "lido:partOfPlace" : {
+                "lido:placeID" : {
+                  "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                  "value" : "http://www.wikidata.org/wiki/Q18288148"
+                },
+                "lido:namePlaceSet" : {
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "en",
+                    "value" : "Metropolitan City of Florence"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "de",
+                    "value" : "Metropolitanstadt Florenz"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "it",
+                    "value" : "Città metropolitana di Firenze"
+                  }
+                },
+                "lido:gml" : {
+                  "gml:Point" : {
+                    "gml:pos" : {
+                      "value" : "43.83333 11.33333"
+                    }
+                  }
+                },
+                "lido:partOfPlace" : {
+                  "lido:placeID" : {
+                    "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                    "value" : "http://www.wikidata.org/wiki/Q1273"
+                  },
+                  "lido:namePlaceSet" : {
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "en",
+                      "value" : "Tuscany"
+                    },
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "de",
+                      "value" : "Toskana"
+                    },
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "it",
+                      "value" : "Toscana"
+                    }
+                  },
+                  "lido:gml" : {
+                    "gml:Point" : {
+                      "gml:pos" : {
+                        "value" : "43.41667 11"
+                      }
+                    }
+                  },
+                  "lido:partOfPlace" : {
+                    "lido:placeID" : {
+                      "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                      "value" : "http://www.wikidata.org/wiki/Q38"
+                    },
+                    "lido:namePlaceSet" : {
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "en",
+                        "value" : "Italy"
+                      },
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "de",
+                        "value" : "Italien"
+                      },
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "it",
+                        "value" : "Italia"
+                      }
+                    },
+                    "lido:gml" : {
+                      "gml:Point" : {
+                        "gml:pos" : {
+                          "value" : "42.5 12.5"
+                        }
+                      }
+                    },
+                    "lido:placeClassification" : {
+                      "skos:Concept" : {
+                        "rdf:about" : "http://www.wikidata.org/wiki/Q6256",
+                        "skos:prefLabel" : {
+                          "xml:lang" : "en",
+                          "value" : "country"
+                        },
+                        "skos:prefLabel" : {
+                          "xml:lang" : "de",
+                          "value" : "Land"
+                        },
+                        "skos:altLabel" : {
+                          "xml:lang" : "de",
+                          "value" : "Staat"
+                        },
+                        "skos:mappingRelation" : {
+                          "value" : "http://vocab.getty.edu/aat/300387506"
+                        },
+                        "skos:mappingRelation" : {
+                          "value" : "http://d-nb.info/gnd/4056618-3"
+                        }
+                      }
+                    }
+                  },
+                  "lido:placeClassification" : {
+                    "skos:Concept" : {
+                      "rdf:about" : "http://www.wikidata.org/wiki/Q16110",
+                      "skos:prefLabel" : {
+                        "xml:lang" : "en",
+                        "value" : "region of                                                 Italy"
+                      },
+                      "skos:prefLabel" : {
+                        "xml:lang" : "de",
+                        "value" : "Region in                                                 Italien"
+                      },
+                      "skos:mappingRelation" : {
+                        "value" : "http://vocab.getty.edu/aat/300236112"
+                      }
+                    }
+                  }
+                },
+                "lido:placeClassification" : {
+                  "skos:Concept" : {
+                    "rdf:about" : "http://www.wikidata.org/wiki/Q15110",
+                    "skos:prefLabel" : {
+                      "xml:lang" : "en",
+                      "value" : "metropolitan city of                                             Italy"
+                    },
+                    "skos:prefLabel" : {
+                      "xml:lang" : "de",
+                      "value" : "Metropolitanstadt"
+                    },
+                    "skos:mappingRelation" : {
+                      "value" : "http://vocab.getty.edu/aat/300132618"
+                    },
+                    "skos:mappingRelation" : {
+                      "value" : "http://d-nb.info/gnd/1114188395"
+                    }
+                  }
+                }
+              },
+              "lido:placeClassification" : {
+                "skos:Concept" : {
+                  "rdf:about" : "http://www.wikidata.org/wiki/Q515",
+                  "skos:prefLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "city"
+                  },
+                  "skos:prefLabel" : {
+                    "xml:lang" : "de",
+                    "value" : "Stadt"
+                  },
+                  "skos:mappingRelation" : {
+                    "value" : "http://vocab.getty.edu/aat/300008389"
+                  },
+                  "skos:mappingRelation" : {
+                    "value" : "http://d-nb.info/gnd/4056723-0"
+                  }
+                }
+              }
+            },
+            "lido:placeClassification" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://vocab.getty.edu/aat/300005512",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "palazzi"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Palazzo"
+                },
+                "skos:altLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Palazzi"
+                }
+              }
+            }
+          }
+        },
+        "lido:repositorySet" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido01019",
+          "lido:displayRepository" : {
+            "value" : "Villa Medicea di Castello (Castello (Florenz)), Geltungsdauer: 1546/1555"
+          },
+          "lido:repositoryName" : {
+            "lido:legalBodyID" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00099",
+              "value" : "https://sws.geonames.org/10627178/"
+            },
+            "lido:legalBodyName" : {
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "it",
+                "value" : "Villa Medicea di Castello"
+              },
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "de",
+                "value" : "Villa Medici von Castello"
+              },
+              "lido:appellationValue" : {
+                "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                "xml:lang" : "en",
+                "value" : "Villa di Castello"
+              }
+            }
+          },
+          "lido:repositoryLocation" : {
+            "lido:gml" : {
+              "gml:Point" : {
+                "gml:pos" : {
+                  "value" : "43.81971 11.22846"
+                }
+              }
+            },
+            "lido:partOfPlace" : {
+              "lido:placeID" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                "value" : "http://vocab.getty.edu/tgn/7006125"
+              },
+              "lido:namePlaceSet" : {
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00170",
+                  "xml:lang" : "en",
+                  "value" : "Castello (rione)"
+                },
+                "lido:appellationValue" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "xml:lang" : "de",
+                  "value" : "Castello (Florenz)"
+                }
+              },
+              "lido:partOfPlace" : {
+                "lido:placeID" : {
+                  "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                  "value" : "http://www.wikidata.org/wiki/Q2044"
+                },
+                "lido:namePlaceSet" : {
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00170",
+                    "xml:lang" : "en",
+                    "value" : "Florence"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00170",
+                    "xml:lang" : "it",
+                    "value" : "Firenze"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "de",
+                    "value" : "Florenz"
+                  }
+                },
+                "lido:gml" : {
+                  "gml:Point" : {
+                    "gml:pos" : {
+                      "value" : "43.771389 11.254167"
+                    }
+                  }
+                },
+                "lido:partOfPlace" : {
+                  "lido:placeID" : {
+                    "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                    "value" : "http://www.wikidata.org/wiki/Q18288148"
+                  },
+                  "lido:namePlaceSet" : {
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "en",
+                      "value" : "Metropolitan City of Florence"
+                    },
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "de",
+                      "value" : "Metropolitanstadt Florenz"
+                    },
+                    "lido:appellationValue" : {
+                      "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                      "xml:lang" : "it",
+                      "value" : "Città metropolitana di Firenze"
+                    }
+                  },
+                  "lido:gml" : {
+                    "gml:Point" : {
+                      "gml:pos" : {
+                        "value" : "43.83333 11.33333"
+                      }
+                    }
+                  },
+                  "lido:partOfPlace" : {
+                    "lido:placeID" : {
+                      "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                      "value" : "http://www.wikidata.org/wiki/Q1273"
+                    },
+                    "lido:namePlaceSet" : {
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "en",
+                        "value" : "Tuscany"
+                      },
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "de",
+                        "value" : "Toskana"
+                      },
+                      "lido:appellationValue" : {
+                        "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                        "xml:lang" : "it",
+                        "value" : "Toscana"
+                      }
+                    },
+                    "lido:gml" : {
+                      "gml:Point" : {
+                        "gml:pos" : {
+                          "value" : "43.41667 11"
+                        }
+                      }
+                    },
+                    "lido:partOfPlace" : {
+                      "lido:placeID" : {
+                        "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                        "value" : "http://www.wikidata.org/wiki/Q38"
+                      },
+                      "lido:namePlaceSet" : {
+                        "lido:appellationValue" : {
+                          "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                          "xml:lang" : "en",
+                          "value" : "Italy"
+                        },
+                        "lido:appellationValue" : {
+                          "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                          "xml:lang" : "de",
+                          "value" : "Italien"
+                        },
+                        "lido:appellationValue" : {
+                          "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                          "xml:lang" : "it",
+                          "value" : "Italia"
+                        }
+                      },
+                      "lido:gml" : {
+                        "gml:Point" : {
+                          "gml:pos" : {
+                            "value" : "42.5 12.5"
+                          }
+                        }
+                      },
+                      "lido:placeClassification" : {
+                        "skos:Concept" : {
+                          "rdf:about" : "http://www.wikidata.org/wiki/Q6256",
+                          "skos:prefLabel" : {
+                            "xml:lang" : "en",
+                            "value" : "country"
+                          },
+                          "skos:prefLabel" : {
+                            "xml:lang" : "de",
+                            "value" : "Land"
+                          },
+                          "skos:altLabel" : {
+                            "xml:lang" : "de",
+                            "value" : "Staat"
+                          },
+                          "skos:mappingRelation" : {
+                            "value" : "http://vocab.getty.edu/aat/300387506"
+                          },
+                          "skos:mappingRelation" : {
+                            "value" : "http://d-nb.info/gnd/4056618-3"
+                          }
+                        }
+                      }
+                    },
+                    "lido:placeClassification" : {
+                      "skos:Concept" : {
+                        "rdf:about" : "http://www.wikidata.org/wiki/Q16110",
+                        "skos:prefLabel" : {
+                          "xml:lang" : "en",
+                          "value" : "region of                                                   Italy"
+                        },
+                        "skos:prefLabel" : {
+                          "xml:lang" : "de",
+                          "value" : "Region in                                                   Italien"
+                        },
+                        "skos:mappingRelation" : {
+                          "value" : "http://vocab.getty.edu/aat/300236112"
+                        }
+                      }
+                    }
+                  },
+                  "lido:placeClassification" : {
+                    "skos:Concept" : {
+                      "rdf:about" : "http://www.wikidata.org/wiki/Q15110",
+                      "skos:prefLabel" : {
+                        "xml:lang" : "en",
+                        "value" : "metropolitan city of                                                 Italy"
+                      },
+                      "skos:prefLabel" : {
+                        "xml:lang" : "de",
+                        "value" : "Metropolitanstadt"
+                      },
+                      "skos:mappingRelation" : {
+                        "value" : "http://vocab.getty.edu/aat/300132618"
+                      },
+                      "skos:mappingRelation" : {
+                        "value" : "http://d-nb.info/gnd/1114188395"
+                      }
+                    }
+                  }
+                },
+                "lido:placeClassification" : {
+                  "skos:Concept" : {
+                    "rdf:about" : "http://www.wikidata.org/wiki/Q515",
+                    "skos:prefLabel" : {
+                      "xml:lang" : "en",
+                      "value" : "city"
+                    },
+                    "skos:prefLabel" : {
+                      "xml:lang" : "de",
+                      "value" : "Stadt"
+                    },
+                    "skos:mappingRelation" : {
+                      "value" : "http://vocab.getty.edu/aat/300008389"
+                    },
+                    "skos:mappingRelation" : {
+                      "value" : "http://d-nb.info/gnd/4056723-0"
+                    }
+                  }
+                }
+              },
+              "lido:placeClassification" : {
+                "skos:Concept" : {
+                  "rdf:about" : "http://vocab.getty.edu/aat/300387336",
+                  "skos:prefLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "rioni"
+                  },
+                  "skos:altLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "rione"
+                  }
+                },
+                "lido:term" : {
+                  "lido:addedSearchTerm" : "yes",
+                  "value" : "Stadtteil"
+                }
+              }
+            },
+            "lido:placeClassification" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://vocab.getty.edu/aat/300005517",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "villas"
+                }
+              },
+              "lido:term" : {
+                "lido:addedSearchTerm" : "yes",
+                "value" : "Villa"
+              }
+            }
+          }
+        }
+      },
+      "lido:objectDescriptionWrap" : {
+        "lido:objectDescriptionSet" : {
+          "lido:descriptiveNoteValue" : {
+            "value" : "Das berühmte Bild, dessen Bedeutung noch umstritten ist, befand sich 1498 in der Via Larga im Palast von Lorenzo und Giovanni di Pierfrancesco                       de' Medici, den Cousins von Lorenzo il Magnificio. Wie \"Pallas und der Centaur\" war es über der Rückenlehne einer Sitztruhe angebracht. Mitte des 16. Jhs. war es dann in der Villa Medici                       von Castello, wo es Vasari als \"Venus, die von den Grazien mit Frühlingsblumen bekränzt wird\" beschrieb. Die komplexe Allegorie scheint von den Texten Ovids und Lukrezius' sowie von einigen                       Versen Angelo Polzianos (1475) angeregt worden zu sein. Letzterer, ein Freund der Medici und des Künstlers, beschreibt einen Garten mit bekränzten Grazien und dem Frühlingswind Zephir,                       der Flora verfolgt. Tatsächlich erkennt man im Allgemeinen im geflügelten Genius rechts den Wind Zephir, der die Nymphe Chloris verfolgt, sie später heiratet und ihr die Fähigkeit                       verleiht, Blumen sprießen zu lassen (hier wachsen sie aus dem Mund heraus). Die im allgemeinen Bewusstsein verankerte, lächelnde Figur im Blumenkleid neben Chloris dürfte ihre                       Verwandlung in Flora, die römische Frühlingsgöttin, verkörpern. In der Bildmitte ist vermutlich Venus, in deren Garten sich die Szene abspielt. Die drei miteinander verschlungenen,                       tanzenden Frauen, abgeleitet von antiken Bildern der drei Grazien, dürften die Liberalität symbolisieren. Ganz oben ist Cupido, der blinde Gott der Liebe. Der junge Mann mit Wanderhut,                       Schwert und geflügelten Schuhen, der die Wolken mit dem Schlangenstab vertreibt, ist zweifellos Merkur, der Herold des Jupiters, der vermutlich die Erkenntnis versinnbildlicht. Das Werk                       wurde vielfach interpretiert. Die Allegorie des Frühlings als eine Jahreszeit, in der die unsichtbare Welt der Formen der Materie Gestalt verleiht, dürfte die Hochzeit von Botticellis                       Freund Lorenzo di Pierfrancesco de' Medici mit Semiramide Appiani, der Nichte Simonetta Vespuccis verherrlichen. Letztere wurde aufgrund ihrer Schönheit und ihres angeblichen Verhältnisses                       mit Giuliano de' Medici legendär. Nach einer jüngeren Interpretation wird das Bild als metaphorische Verherrlichung der freien Künste in Anspielung auf ein Hochzeitsfest ausgelegt.                       Es zählt jedenfalls zu den Werken, die die ideale Rückkehr in das Goldene Zeitalter im Florenz zur Zeit Lorenzos il Magnificio am stärksten zum Ausdruck bringen.                       "
+          },
+          "lido:sourceDescriptiveNote" : {
+            "value" : "Fossi, Gloria: Die Uffizien: Offizieller Führer. Alle Werke, 2005, S. 76"
+          }
+        }
+      },
+      "lido:objectMeasurementsWrap" : {
+        "lido:objectMeasurementsSet" : {
+          "lido:displayObjectMeasurements" : {
+            "value" : "203 x 314 cm"
+          },
+          "lido:objectMeasurements" : {
+            "lido:measurementsSet" : {
+              "lido:measurementType" : {
+                "skos:Concept" : {
+                  "rdf:about" : "http://www.wikidata.org/wiki/Q208826",
+                  "skos:prefLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "height"
+                  },
+                  "skos:prefLabel" : {
+                    "xml:lang" : "de",
+                    "value" : "Höhe"
+                  },
+                  "skos:mappingRelation" : {
+                    "value" : "http://vocab.getty.edu/aat/300055644"
+                  }
+                }
+              },
+              "lido:measurementUnit" : {
+                "skos:Concept" : {
+                  "rdf:about" : "http://www.wikidata.org/wiki/Q174728",
+                  "skos:prefLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "centimetre"
+                  },
+                  "skos:prefLabel" : {
+                    "xml:lang" : "de",
+                    "value" : "Zentimeter"
+                  },
+                  "skos:altLabel" : {
+                    "xml:lang" : "mul",
+                    "value" : "cm"
+                  },
+                  "skos:mappingRelation" : {
+                    "value" : "http://vocab.getty.edu/aat/300379098"
+                  }
+                }
+              },
+              "lido:measurementValue" : {
+                "value" : "203"
+              }
+            },
+            "lido:measurementsSet" : {
+              "lido:measurementType" : {
+                "skos:Concept" : {
+                  "rdf:about" : "http://www.wikidata.org/wiki/Q35059",
+                  "skos:prefLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "width"
+                  },
+                  "skos:prefLabel" : {
+                    "xml:lang" : "de",
+                    "value" : "Breite"
+                  },
+                  "skos:mappingRelation" : {
+                    "value" : "http://vocab.getty.edu/aat/300055647"
+                  }
+                }
+              },
+              "lido:measurementUnit" : {
+                "skos:Concept" : {
+                  "rdf:about" : "http://www.wikidata.org/wiki/Q174728",
+                  "skos:prefLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "centimetre"
+                  },
+                  "skos:prefLabel" : {
+                    "xml:lang" : "de",
+                    "value" : "Zentimeter"
+                  },
+                  "skos:altLabel" : {
+                    "xml:lang" : "mul",
+                    "value" : "cm"
+                  },
+                  "skos:mappingRelation" : {
+                    "value" : "http://vocab.getty.edu/aat/300379098"
+                  }
+                }
+              },
+              "lido:measurementValue" : {
+                "value" : "314"
+              }
+            }
+          }
+        }
+      },
+      "lido:objectMaterialsTechWrap" : {
+        "lido:objectMaterialsTechSet" : {
+          "lido:displayMaterialsTech" : {
+            "value" : "Tempera auf Pappelholz"
+          },
+          "lido:materialsTech" : {
+            "lido:termMaterialsTech" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00514",
+              "skos:Concept" : {
+                "rdf:about" : "http://vocab.getty.edu/aat/300012363",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "poplar (wood)"
+                }
+              },
+              "lido:term" : {
+                "lido:addedSearchTerm" : "yes",
+                "value" : "Pappelholz"
+              }
+            },
+            "lido:sourceMaterialsTech" : {
+              "value" : "Le Gallerie degli Uffizi. URL: https://www.uffizi.it/en/artworks/botticelli-spring [2021-08-14]"
+            }
+          },
+          "lido:materialsTech" : {
+            "lido:termMaterialsTech" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00513",
+              "skos:Concept" : {
+                "rdf:about" : "http://vocab.getty.edu/aat/300015066",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "oil tempera"
+                }
+              },
+              "lido:term" : {
+                "lido:addedSearchTerm" : "yes",
+                "value" : "Öltemperafarbe"
+              }
+            }
+          },
+          "lido:materialsTech" : {
+            "lido:termMaterialsTech" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00131",
+              "skos:Concept" : {
+                "rdf:about" : "http://vocab.getty.edu/aat/300178675",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "panel painting (image-making)"
+                }
+              },
+              "lido:term" : {
+                "lido:addedSearchTerm" : "yes",
+                "value" : "Tafelmalerei"
+              }
+            }
+          }
+        }
+      }
+    },
+    "lido:eventWrap" : {
+      "lido:eventSet" : {
+        "lido:event" : {
+          "lido:eventType" : {
+            "skos:Concept" : {
+              "rdf:about" : "http://terminology.lido-schema.org/lido00007",
+              "skos:prefLabel" : {
+                "xml:lang" : "en",
+                "value" : "Production"
+              },
+              "skos:prefLabel" : {
+                "xml:lang" : "de",
+                "value" : "Herstellung"
+              }
+            }
+          },
+          "lido:eventActor" : {
+            "lido:actorInRole" : {
+              "lido:actor" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00163",
+                "lido:actorID" : {
+                  "lido:source" : "Bildindex-KUE-Datei",
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00170",
+                  "lido:type" : "http://terminology.lido-schema.org/lido00100",
+                  "value" : "kue 02553338"
+                },
+                "lido:actorID" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                  "value" : "http://vocab.getty.edu/ulan/500015254"
+                },
+                "lido:actorID" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00170",
+                  "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                  "value" : "https://d-nb.info/gnd/118514008"
+                },
+                "lido:nameActorSet" : {
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "value" : "Botticelli, Sandro"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00526",
+                    "value" : "Sandro Botticelli"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00170",
+                    "value" : "Filipepi, Alessandro"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00170",
+                    "value" : "Filipepi, Sandro"
+                  }
+                },
+                "lido:nationalityActor" : {
+                  "lido:type" : "http://terminology.lido-schema.org/lido0102",
+                  "skos:Concept" : {
+                    "rdf:about" : "http://vocab.getty.edu/aat/300111198",
+                    "skos:prefLabel" : {
+                      "xml:lang" : "en",
+                      "value" : "Italian (culture or style)"
+                    }
+                  },
+                  "lido:term" : {
+                    "lido:addedSearchTerm" : "yes",
+                    "value" : "italienisch (Kultur)"
+                  }
+                },
+                "lido:vitalDatesActor" : {
+                  "lido:earliestDate" : {
+                    "lido:type" : "http://terminology.lido-schema.org/lido00529",
+                    "value" : "1445"
+                  },
+                  "lido:latestDate" : {
+                    "lido:type" : "http://terminology.lido-schema.org/lido00529",
+                    "value" : "1510-05-17"
+                  }
+                },
+                "lido:genderActor" : {
+                  "lido:type" : "http://terminology.lido-schema.org/lido00867",
+                  "skos:Concept" : {
+                    "rdf:about" : "http://terminology.lido-schema.org/lido00774",
+                    "skos:prefLabel" : {
+                      "xml:lang" : "en",
+                      "value" : "Male"
+                    },
+                    "skos:prefLabel" : {
+                      "xml:lang" : "de",
+                      "value" : "Männlich"
+                    },
+                    "skos:exactMatch" : {
+                      "value" : "http://vocab.getty.edu/aat/300189559"
+                    },
+                    "skos:exactMatch" : {
+                      "value" : "https://d-nb.info/standards/vocab/gnd/gender#male"
+                    },
+                    "skos:exactMatch" : {
+                      "value" : "http://www.wikidata.org/wiki/Q6581097"
+                    }
+                  }
+                }
+              },
+              "lido:roleActor" : {
+                "skos:Concept" : {
+                  "rdf:about" : "http://vocab.getty.edu/aat/300025136",
+                  "skos:prefLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "painters (artists)"
+                  },
+                  "skos:prefLabel" : {
+                    "xml:lang" : "de",
+                    "value" : "Maler"
+                  },
+                  "skos:altLabel" : {
+                    "xml:lang" : "en",
+                    "value" : "painter (artist)"
+                  }
+                }
+              }
+            }
+          },
+          "lido:culture" : {
+            "skos:Concept" : {
+              "rdf:about" : "http://vocab.getty.edu/aat/300386003",
+              "skos:prefLabel" : {
+                "xml:lang" : "en",
+                "value" : "Florentine"
+              }
+            },
+            "lido:term" : {
+              "lido:addedSearchTerm" : "yes",
+              "value" : "florentinisch (Kultur oder Stil)"
+            }
+          },
+          "lido:eventDate" : {
+            "lido:displayDate" : {
+              "value" : "um 1480 oder 1482/1485"
+            },
+            "lido:date" : {
+              "lido:earliestDate" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00529",
+                "lido:source" : "https://www.uffizi.it/opere/botticelli-primavera [2021-12-11]",
+                "value" : "1480"
+              },
+              "lido:latestDate" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00529",
+                "lido:source" : "http://catalogo.uffizi.it/it/29/ricerca/detailiccd/1185170 [2021-12-11]",
+                "value" : "1485"
+              }
+            }
+          },
+          "lido:periodName" : {
+            "lido:type" : "http://terminology.lido-schema.org/lido00732",
+            "skos:Concept" : {
+              "rdf:about" : "http://vocab.getty.edu/aat/300021140",
+              "skos:prefLabel" : {
+                "xml:lang" : "en",
+                "value" : "Renaissance"
+              }
+            },
+            "lido:term" : {
+              "lido:addedSearchTerm" : "yes",
+              "value" : "Renaissance"
+            }
+          }
+        }
+      },
+      "lido:eventSet" : {
+        "lido:event" : {
+          "lido:eventType" : {
+            "skos:Concept" : {
+              "rdf:about" : "http://terminology.lido-schema.org/lido00034",
+              "skos:prefLabel" : {
+                "xml:lang" : "en",
+                "value" : "Restoration"
+              },
+              "skos:prefLabel" : {
+                "xml:lang" : "de",
+                "value" : "Restaurierung"
+              },
+              "skos:closeMatch" : {
+                "value" : "http://vocab.getty.edu/aat/300053742"
+              },
+              "skos:closeMatch" : {
+                "value" : "http://d-nb.info/gnd/4049600-4"
+              },
+              "skos:closeMatch" : {
+                "value" : "http://www.wikidata.org/wiki/Q217102"
+              }
+            }
+          },
+          "lido:eventDate" : {
+            "lido:displayDate" : {
+              "value" : "1981/1983"
+            },
+            "lido:date" : {
+              "lido:earliestDate" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00528",
+                "value" : "1981"
+              },
+              "lido:latestDate" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00528",
+                "value" : "1983"
+              }
+            }
+          }
+        }
+      },
+      "lido:eventSet" : {
+        "lido:event" : {
+          "lido:eventType" : {
+            "skos:Concept" : {
+              "rdf:about" : "http://terminology.lido-schema.org/lido00001",
+              "skos:prefLabel" : {
+                "xml:lang" : "en",
+                "value" : "Acquisition"
+              },
+              "skos:prefLabel" : {
+                "xml:lang" : "de",
+                "value" : "Erwerbung"
+              }
+            }
+          },
+          "lido:eventActor" : {
+            "lido:actorInRole" : {
+              "lido:actor" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00413",
+                "lido:actorID" : {
+                  "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                  "lido:type" : "http://terminology.lido-schema.org/lido00099",
+                  "value" : "http://vocab.getty.edu/ulan/500125191"
+                },
+                "lido:nameActorSet" : {
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "de",
+                    "value" : "Uffizien"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "it",
+                    "value" : "Galleria degli Uffizi"
+                  },
+                  "lido:appellationValue" : {
+                    "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+                    "xml:lang" : "en",
+                    "value" : "Uffizi Gallery"
+                  }
+                }
+              }
+            }
+          },
+          "lido:eventDate" : {
+            "lido:displayDate" : {
+              "value" : "1919"
+            },
+            "lido:date" : {
+              "lido:earliestDate" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00528",
+                "value" : "1919"
+              },
+              "lido:latestDate" : {
+                "lido:type" : "http://terminology.lido-schema.org/lido00528",
+                "value" : "1919"
+              }
+            }
+          }
+        }
+      }
+    },
+    "lido:objectRelationWrap" : {
+      "lido:subjectWrap" : {
+        "lido:subjectSet" : {
+          "lido:subject" : {
+            "lido:type" : "http://terminology.lido-schema.org/lido00745",
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/23D42",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "spring, 'Ver'; 'Primavera'                                     (Ripa)"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Frühling; Ripa: Ver;                                     Primavera"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "primavera, 'Ver'; 'Primavera'                                     (Ripa)"
+                },
+                "skos:notation" : {
+                  "value" : "23D42"
+                }
+              }
+            },
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/57A9",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "Humanity, Politeness; 'Cortesia',                                     'Humanità' (Ripa)"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Menschlichkeit, Höflichkeit; Ripa:                                     Cortesia, Humanità"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "umanità, cortesia; 'Cortesia',                                     'Humanità' (Ripa)"
+                },
+                "skos:notation" : {
+                  "value" : "57A9"
+                }
+              }
+            },
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/92C47",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "specific aspects, allegorical aspects                                     of Venus; Venus as patroness"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "spezifische Darstellungsformen,                                     allegorische Darstellungsformen; Venus als                                     Schutzgottheit"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "iconografie particolari, aspetti                                     allegorici di Venere"
+                },
+                "skos:notation" : {
+                  "value" : "92C47"
+                }
+              }
+            },
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/92B57",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "specific aspects, allegorical aspects                                     of Mercury; Mercury as patron"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "spezifische Darstellungsformen,                                     allegorische Darstellungsformen Merkurs; Merkur als                                     Schutzgottheit"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "iconografie particolari, aspetti                                     allegorici di Mercurio; Mercurio come patrono"
+                },
+                "skos:notation" : {
+                  "value" : "92B57"
+                }
+              }
+            },
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/92B58%28Caduceus%29",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "attributes of Mercury                                     (Caduceus)"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Attribute Merkurs                                     (Caduceus)"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "attributi di Mercurio                                     (Caduceus)"
+                },
+                "skos:notation" : {
+                  "value" : "92B58(Caduceus)"
+                }
+              }
+            },
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/92D3",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "Graces (Charites), generally three in number; 'Gratie' (Ripa)"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Grazien (Chariten), meist als Dreiergespann; Ripa: Gratie"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "Zefiro rapisce Flora (o Clori), in genere raffigurata mentre sparge fiori"
+                },
+                "skos:notation" : {
+                  "value" : "92D3"
+                }
+              }
+            },
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/92E5421",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "Zephyrus abducting Flora (or Chloris), who usually scatters flowers"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Zephyrus entführt Flora (oder Chloris), die in der Regel Blumen streut"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "Grazie (Cariti), generalmente in numero di tre; 'Gratie' (Ripa)"
+                },
+                "skos:notation" : {
+                  "value" : "92E5421"
+                }
+              }
+            },
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/96A2351",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "Flora in her realm: a garden full of flowers, given to her by Zephyrus"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Flora in ihrem Königreich: ein Garten voller Blumen, der ihr von Zephyrus geschenkt worden ist"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "Flora nel suo regno; un giardino pieno di fiori, donatole da Zefiro"
+                },
+                "skos:notation" : {
+                  "value" : "96A2351"
+                }
+              }
+            },
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/92D1521",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "Cupid shooting a dart"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Cupido schießt einen Pfeil"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "Cupido scaglia una freccia"
+                },
+                "skos:notation" : {
+                  "value" : "92D1521"
+                }
+              }
+            },
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/25G3(%20)",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "trees ( )"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Bäume ( )"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "alberi ( )"
+                },
+                "skos:notation" : {
+                  "value" : "25G3(Bitter Orange-Tree)"
+                }
+              },
+              "lido:term" : {
+                "lido:addedSearchTerm" : "yes",
+                "xml:lang" : "en",
+                "value" : "Bitter Orange-Tree"
+              }
+            },
+            "lido:subjectConcept" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://iconclass.org/25G41",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "flowers"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Blumen"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "it",
+                  "value" : "fiori"
+                },
+                "skos:notation" : {
+                  "value" : "25G41"
+                }
+              }
+            }
+          }
+        }
+      },
+      "lido:relatedWorksWrap" : {
+        "lido:relatedWorkSet" : {
+          "lido:sortorder" : "1",
+          "lido:displayRelatedWork" : {
+            "value" : "René Magritte, Le bouquet tout fait / The ready-made bouquet, 1957, Nakanoshima Museum of Art, Osaka"
+          },
+          "lido:relatedWork" : {
+            "lido:object" : {
+              "lido:objectWebResource" : {
+                "value" : "http://www.nak-osaka.jp/en/gallery_31.html"
+              }
+            }
+          },
+          "lido:relatedWorkRelType" : {
+            "skos:Concept" : {
+              "rdf:about" : "http://terminology.lido-schema.org/lido00604",
+              "skos:prefLabel" : {
+                "xml:lang" : "en",
+                "value" : "is source for"
+              },
+              "skos:prefLabel" : {
+                "xml:lang" : "de",
+                "value" : "ist Quelle für"
+              }
+            }
+          }
+        },
+        "lido:relatedWorkSet" : {
+          "lido:sortorder" : "2",
+          "lido:displayRelatedWork" : {
+            "value" : "Catalogue Général des reproductions inaltérables au charbon, d'après les chefs-d'ouvre de la peinture dans les Musées d'Europe, les Galeries et Collections particulières les plus remarquables, New York 1896"
+          },
+          "lido:relatedWork" : {
+            "lido:object" : {
+              "lido:objectWebResource" : {
+                "value" : "http://wwwuser.gwdg.de/~fotokat/Fotokataloge/Braun_1896_1_h.pdf"
+              },
+              "objectNote" : {
+                "value" : "Kat.-Nr. 42.543: BOTTICELLI (Sandro) FILIPEPI dit II [Florence, 1447-1500. - (École florentine.)]: \"Détail du Le Printemps; \"Primavera\": La figure du Printemps.\" - [Peinture] - Florence. Académie; S. 71"
+              }
+            }
+          },
+          "lido:relatedWorkRelType" : {
+            "skos:Concept" : {
+              "rdf:about" : "http://terminology.lido-schema.org/lido00617",
+              "skos:prefLabel" : {
+                "xml:lang" : "en",
+                "value" : "is documented in"
+              },
+              "skos:prefLabel" : {
+                "xml:lang" : "de",
+                "value" : "ist dokumentiert in"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "lido:administrativeMetadata" : {
+    "xml:lang" : "de",
+    "lido:rightsWorkWrap" : {
+      "lido:rightsWorkSet" : {
+        "lido:rightsType" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00921",
+          "skos:Concept" : {
+            "rdf:about" : "http://rightsstatements.org/vocab/NoC-OKLR/1.0/",
+            "skos:prefLabel" : {
+              "xml:lang" : "en",
+              "value" : "No Copyright - other known legal restrictions                             (NoC-OKLR 1.0)"
+            },
+            "skos:prefLabel" : {
+              "xml:lang" : "de",
+              "value" : "Kein Urheberrechtsschutz - andere rechtliche                             Beschränkungen (NoC-OKLR 1.0)"
+            }
+          }
+        },
+        "lido:rightsHolder" : {
+          "lido:legalBodyID" : {
+            "lido:type" : "http://terminology.lido-schema.org/lido00099",
+            "value" : "http://vocab.getty.edu/ulan/500125191"
+          },
+          "lido:legalBodyName" : {
+            "lido:appellationValue" : {
+              "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+              "xml:lang" : "it",
+              "value" : "Galleria degli Uffizi"
+            },
+            "lido:appellationValue" : {
+              "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+              "xml:lang" : "de",
+              "value" : "Uffizien"
+            },
+            "lido:appellationValue" : {
+              "lido:pref" : "http://terminology.lido-schema.org/lido00169",
+              "xml:lang" : "en",
+              "value" : "Uffizi Gallery"
+            }
+          },
+          "lido:legalBodyWeblink" : {
+            "value" : "https://www.uffizi.it/"
+          }
+        }
+      }
+    },
+    "lido:recordWrap" : {
+      "lido:recordID" : {
+        "lido:type" : "http://terminology.lido-schema.org/lido00100",
+        "value" : "00154983"
+      },
+      "lido:recordType" : {
+        "skos:Concept" : {
+          "rdf:about" : "http://terminology.lido-schema.org/lido00141",
+          "skos:prefLabel" : {
+            "xml:lang" : "en",
+            "value" : "Item-level record"
+          },
+          "skos:prefLabel" : {
+            "xml:lang" : "de",
+            "value" : "Einzelobjekt (Katalogisierungsebene)"
+          }
+        }
+      },
+      "lido:recordSource" : {
+        "lido:legalBodyID" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00099",
+          "lido:source" : "ISIL (ISO 15511)",
+          "value" : "                   https://ld.zdb-services.de/resource/organisations/DE-Mb112"
+        },
+        "lido:legalBodyName" : {
+          "lido:appellationValue" : {
+            "value" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+          }
+        },
+        "lido:legalBodyWeblink" : {
+          "value" : "https://www.uni-marburg.de/de/fotomarburg"
+        }
+      },
+      "lido:recordRights" : {
+        "lido:rightsType" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00921",
+          "skos:Concept" : {
+            "rdf:about" : "http://creativecommons.org/publicdomain/zero/1.0/",
+            "skos:prefLabel" : {
+              "xml:lang" : "en",
+              "value" : "CC0 1.0 Universal (CC0 1.0)"
+            },
+            "skos:altLabel" : {
+              "xml:lang" : "en",
+              "value" : "No Copyright"
+            },
+            "skos:altLabel" : {
+              "xml:lang" : "en",
+              "value" : "Public Domain Dedication"
+            },
+            "skos:altLabel" : {
+              "xml:lang" : "de",
+              "value" : "Kein Urheberrechtsschutz"
+            }
+          }
+        },
+        "lido:rightsHolder" : {
+          "lido:legalBodyID" : {
+            "lido:type" : "http://terminology.lido-schema.org/lido00099",
+            "lido:source" : "ISIL (ISO 15511)",
+            "value" : "                       https://ld.zdb-services.de/resource/organisations/DE-Mb112"
+          },
+          "lido:legalBodyName" : {
+            "lido:appellationValue" : {
+              "value" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+            }
+          },
+          "lido:legalBodyWeblink" : {
+            "value" : "https://www.uni-marburg.de/de/fotomarburg"
+          }
+        },
+        "lido:creditLine" : {
+          "value" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg. CC0 1.0 Universal (CC0 1.0)"
+        }
+      },
+      "lido:recordInfoSet" : {
+        "lido:recordInfoLink" : {
+          "lido:formatResource" : "text/html",
+          "value" : "https://www.bildindex.de/document/obj00154983"
+        }
+      }
+    },
+    "lido:resourceWrap" : {
+      "lido:resourceSet" : {
+        "lido:resourceID" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00100",
+          "value" : "p_gkka1982_01929"
+        },
+        "lido:resourceRepresentation" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00451",
+          "lido:linkResource" : {
+            "lido:formatResource" : "image/jpeg",
+            "value" : "http://www.bildindex.de/bilder/m/fmp_gkka1982_01929_2l"
+          },
+          "lido:resourceMeasurementsSet" : {
+            "lido:measurementType" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q35059",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "width"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Breite"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300055647"
+                }
+              }
+            },
+            "lido:measurementUnit" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q355198",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "pixel"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Pixel"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300266190"
+                }
+              }
+            },
+            "lido:measurementValue" : {
+              "value" : "350"
+            }
+          }
+        },
+        "lido:resourceRepresentation" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00464",
+          "lido:linkResource" : {
+            "lido:formatResource" : "image/jpeg",
+            "value" : "http://www.bildindex.de/bilder/d/fmp_gkka1982_01929_2l"
+          },
+          "lido:resourceMeasurementsSet" : {
+            "lido:measurementType" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q35059",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "width"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Breite"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300055647"
+                }
+              }
+            },
+            "lido:measurementUnit" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q355198",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "pixel"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Pixel"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300266190"
+                }
+              }
+            },
+            "lido:measurementValue" : {
+              "value" : "1200"
+            }
+          }
+        },
+        "lido:resourceType" : {
+          "skos:Concept" : {
+            "rdf:about" : "http://vocab.getty.edu/aat/300215302",
+            "skos:prefLabel" : {
+              "xml:lang" : "en",
+              "value" : "digital images"
+            },
+            "skos:altLabel" : {
+              "xml:lang" : "en",
+              "value" : "digital image"
+            }
+          },
+          "lido:term" : {
+            "value" : "Digitales Bild"
+          },
+          "lido:term" : {
+            "lido:addedSearchTerm" : "yes",
+            "value" : "Digitalbild"
+          }
+        },
+        "lido:resourceDescription" : {
+          "value" : "Gesamtansicht"
+        },
+        "lido:resourceDateTaken" : {
+          "lido:displayDate" : {
+            "value" : "vor 1896"
+          },
+          "lido:date" : {
+            "lido:earliestDate" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00529",
+              "value" : "1896"
+            },
+            "lido:latestDate" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00529",
+              "value" : "1896"
+            }
+          }
+        },
+        "lido:rightsResource" : {
+          "lido:rightsType" : {
+            "lido:type" : "http://terminology.lido-schema.org/lido00921",
+            "skos:Concept" : {
+              "rdf:about" : "https://www.deutsche-digitale-bibliothek.de/content/lizenzen/rv-fz/",
+              "skos:prefLabel" : {
+                "xml:lang" : "en",
+                "value" : "Free access – no reuse"
+              },
+              "skos:prefLabel" : {
+                "xml:lang" : "de",
+                "value" : "Rechte vorbehalten – Freier                                 Zugang"
+              }
+            }
+          },
+          "lido:rightsHolder" : {
+            "lido:legalBodyID" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00099",
+              "lido:source" : "ISIL (ISO 15511)",
+              "value" : "                           https://ld.zdb-services.de/resource/organisations/DE-Mb112"
+            },
+            "lido:legalBodyName" : {
+              "lido:appellationValue" : {
+                "value" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+              }
+            }
+          },
+          "lido:creditLine" : {
+            "xml:lang" : "de",
+            "value" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg. Fotograf/Fotografin: Maison Braun. Aufn.-Datum: vor 1896. Rechte vorbehalten – Freier Zugang"
+          }
+        }
+      },
+      "lido:resourceSet" : {
+        "lido:resourceID" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00100",
+          "value" : "C 654.591"
+        },
+        "lido:resourceRepresentation" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00451",
+          "lido:linkResource" : {
+            "lido:formatResource" : "image/jpeg",
+            "value" : "http://www.bildindex.de/bilder/m/fmc654591"
+          },
+          "lido:resourceMeasurementsSet" : {
+            "lido:measurementType" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q35059",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "width"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Breite"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300055647"
+                }
+              }
+            },
+            "lido:measurementUnit" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q355198",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "pixel"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Pixel"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300266190"
+                }
+              }
+            },
+            "lido:measurementValue" : {
+              "value" : "350"
+            }
+          }
+        },
+        "lido:resourceRepresentation" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00464",
+          "lido:linkResource" : {
+            "lido:formatResource" : "image/jpeg",
+            "value" : "http://www.bildindex.de/bilder/d/fmc654591"
+          },
+          "lido:resourceMeasurementsSet" : {
+            "lido:measurementType" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q35059",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "width"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Breite"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300055647"
+                }
+              }
+            },
+            "lido:measurementUnit" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q355198",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "pixel"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Pixel"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300266190"
+                }
+              }
+            },
+            "lido:measurementValue" : {
+              "value" : "1200"
+            }
+          }
+        },
+        "lido:resourceType" : {
+          "skos:Concept" : {
+            "rdf:about" : "http://vocab.getty.edu/aat/300215302",
+            "skos:prefLabel" : {
+              "xml:lang" : "en",
+              "value" : "digital images"
+            },
+            "skos:altLabel" : {
+              "xml:lang" : "en",
+              "value" : "digital image"
+            }
+          },
+          "lido:term" : {
+            "value" : "Digitales Bild"
+          },
+          "lido:term" : {
+            "lido:addedSearchTerm" : "yes",
+            "value" : "Digitalbild"
+          }
+        },
+        "lido:resourceDescription" : {
+          "value" : "Gesamtansicht"
+        },
+        "lido:resourceDateTaken" : {
+          "lido:displayDate" : {
+            "value" : "1949"
+          },
+          "lido:date" : {
+            "lido:earliestDate" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00528",
+              "value" : "1949"
+            },
+            "lido:latestDate" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00528",
+              "value" : "1949"
+            }
+          }
+        },
+        "lido:rightsResource" : {
+          "lido:rightsType" : {
+            "lido:type" : "http://terminology.lido-schema.org/lido00921",
+            "skos:Concept" : {
+              "rdf:about" : "https://www.deutsche-digitale-bibliothek.de/content/lizenzen/rv-fz/",
+              "skos:prefLabel" : {
+                "xml:lang" : "en",
+                "value" : "Free access – no reuse"
+              },
+              "skos:prefLabel" : {
+                "xml:lang" : "de",
+                "value" : "Rechte vorbehalten – Freier                                 Zugang"
+              }
+            }
+          },
+          "lido:rightsHolder" : {
+            "lido:legalBodyID" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00099",
+              "lido:source" : "ISIL (ISO 15511)",
+              "value" : "                           https://ld.zdb-services.de/resource/organisations/DE-Mb112"
+            },
+            "lido:legalBodyName" : {
+              "lido:appellationValue" : {
+                "value" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+              }
+            }
+          },
+          "lido:creditLine" : {
+            "value" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg. Fotograf/Fotografin: unbekannt. Aufn.-Datum: 1949. Rechte vorbehalten – Freier Zugang"
+          }
+        }
+      },
+      "lido:resourceSet" : {
+        "lido:resourceID" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00100",
+          "value" : "1.005.045"
+        },
+        "lido:resourceRepresentation" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00451",
+          "lido:linkResource" : {
+            "lido:formatResource" : "image/jpeg",
+            "value" : "http://www.bildindex.de/bilder/m/fm1005045"
+          },
+          "lido:resourceMeasurementsSet" : {
+            "lido:measurementType" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q35059",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "width"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Breite"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300055647"
+                }
+              }
+            },
+            "lido:measurementUnit" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q355198",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "pixel"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Pixel"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300266190"
+                }
+              }
+            },
+            "lido:measurementValue" : {
+              "value" : "350"
+            }
+          }
+        },
+        "lido:resourceRepresentation" : {
+          "lido:type" : "http://terminology.lido-schema.org/lido00464",
+          "lido:linkResource" : {
+            "lido:formatResource" : "image/jpeg",
+            "value" : "http://www.bildindex.de/bilder/d/fm1005045"
+          },
+          "lido:resourceMeasurementsSet" : {
+            "lido:measurementType" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q35059",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "width"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Breite"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300055647"
+                }
+              }
+            },
+            "lido:measurementUnit" : {
+              "skos:Concept" : {
+                "rdf:about" : "http://www.wikidata.org/wiki/Q355198",
+                "skos:prefLabel" : {
+                  "xml:lang" : "en",
+                  "value" : "pixel"
+                },
+                "skos:prefLabel" : {
+                  "xml:lang" : "de",
+                  "value" : "Pixel"
+                },
+                "skos:mappingRelation" : {
+                  "value" : "http://vocab.getty.edu/aat/300266190"
+                }
+              }
+            },
+            "lido:measurementValue" : {
+              "value" : "1200"
+            }
+          }
+        },
+        "lido:resourceType" : {
+          "skos:Concept" : {
+            "rdf:about" : "http://vocab.getty.edu/aat/300215302",
+            "skos:prefLabel" : {
+              "xml:lang" : "en",
+              "value" : "digital images"
+            },
+            "skos:altLabel" : {
+              "xml:lang" : "en",
+              "value" : "digital image"
+            }
+          },
+          "lido:term" : {
+            "value" : "Digitales Bild"
+          },
+          "lido:term" : {
+            "lido:addedSearchTerm" : "yes",
+            "value" : "Digitalbild"
+          }
+        },
+        "lido:resourceDescription" : {
+          "value" : "Gesamtansicht"
+        },
+        "lido:resourceDateTaken" : {
+          "lido:displayDate" : {
+            "value" : "um 1895/1920?"
+          },
+          "lido:date" : {
+            "lido:earliestDate" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00529",
+              "value" : "1895"
+            },
+            "lido:latestDate" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00529",
+              "value" : "1920"
+            }
+          }
+        },
+        "lido:rightsResource" : {
+          "lido:rightsType" : {
+            "lido:type" : "http://terminology.lido-schema.org/lido00921",
+            "skos:Concept" : {
+              "rdf:about" : "https://www.deutsche-digitale-bibliothek.de/content/lizenzen/rv-fz/",
+              "skos:prefLabel" : {
+                "xml:lang" : "en",
+                "value" : "Free access – no reuse"
+              },
+              "skos:prefLabel" : {
+                "xml:lang" : "de",
+                "value" : "Rechte vorbehalten – Freier                                 Zugang"
+              }
+            }
+          },
+          "lido:rightsHolder" : {
+            "lido:legalBodyID" : {
+              "lido:type" : "http://terminology.lido-schema.org/lido00099",
+              "lido:source" : "ISIL (ISO 15511)",
+              "value" : "                           https://ld.zdb-services.de/resource/organisations/DE-Mb112"
+            },
+            "lido:legalBodyName" : {
+              "lido:appellationValue" : {
+                "value" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg"
+              }
+            }
+          },
+          "lido:creditLine" : {
+            "value" : "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg. Fotograf/Fotografin: unbekannt. Aufn.-Datum: um 1895/1920?. Rechte vorbehalten – Freier Zugang"
+          }
+        }
+      }
+    }
+  },
+  "test" : "Ich bin ein TESTWERT!!!!",
+  "ERGEBNIS" : "ICH BIN DAS ERGEBNIS VON Ich bin ein TESTWERT!!!!"
 }
