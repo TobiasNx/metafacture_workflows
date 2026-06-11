@@ -1,4 +1,4 @@
-"https://duepublico2.uni-due.de/oer/oai"
-| open-oaipmh(metadataPrefix="mods",dateFrom="2021-05-14",dateUntil="2021-05-31")
+"http://gnd-proxy.lobid.org/oai/repository"
+| open-oaipmh(metadataPrefix="PicaPlus-xml",dateFrom="2025-11-01",setSpec="bib")
 | as-lines
 | write(FLUX_DIR + "testOai.xml");

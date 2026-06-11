@@ -1,8 +1,3 @@
-unless any_equal("inCollection[].*.id", "http://lobid.org/organisations/DE-655#!")
-	to_var("almaMmsId","ID")
-	log("NO NZ Record: $[ID]", level: "INFO")
-	reject()
-end
 move_field("rpbId","@rpbId")
 move_field("@rpbId","rpbId")
 prepend("rpbId","RPB")
