@@ -14,4 +14,6 @@ move_field("@zdbId","zdbId")
 unless exists("zdbId")
 	add_field("zdbId","")
 end
-retain("almaMmsId","rpbId","hbzId","zdbId")
+copy_field("inCollection[].*.label", "page.$append")
+join_field("page", "; ")
+retain("almaMmsId","rpbId","hbzId","zdbId","page")

@@ -39,7 +39,7 @@ rpbFile
 | sort-triples(by="all")
 | collect-triples
 | fix(FLUX_DIR + "rpbIdSingeEntry.fix")
-| fix(FLUX_DIR + "keepHbzIdsWithoutNZRecord.fix",*)
+| fix(FLUX_DIR + "keepHbzIdsWithNZRecord.fix",*)
 | encode-csv(includeHeader="TRUE", separator="\t", noQuotes="true")
 | write(FLUX_DIR + "trueRpbIdNZMapping.tsv")
 ;

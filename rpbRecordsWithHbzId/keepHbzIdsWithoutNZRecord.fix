@@ -6,6 +6,6 @@ copy_field("hbzId","almaMmsId")
 
 lookup("almaMmsId","lobidLookupHbzId2Alma",delete:"true")
 
-unless exists("almaMmsId")
+if exists("almaMmsId")
     reject()
 end

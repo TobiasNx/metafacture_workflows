@@ -11,4 +11,4 @@ join_field("hbzId", "; ")
 join_field("zdbId", "; ")
 join_field("rpbId", "; ")
 
-retain("zdbId","almaMmsId","hbzId","rpbId")
+retain("zdbId","almaMmsId","hbzId","rpbId", "page")
