@@ -1,5 +1,5 @@
-"https://raw.githubusercontent.com/gbv/Catmandu-Tutorial/master/data/marc.mrc"
-| open-http
+"/home/tobias/Downloads/lobid-resources-bulk-1737026443840.jsonl"
+| open-file
 | as-lines
-| write(FLUX_DIR + "test", separator="")
+| write(FLUX_DIR + "test.xml")
 ;

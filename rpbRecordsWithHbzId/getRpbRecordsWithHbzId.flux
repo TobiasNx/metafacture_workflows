@@ -12,15 +12,4 @@ default rpbHarvest = FLUX_DIR + "rpbWithHbzId.jsonl";
 | write(rpbHarvest)
 ;
 
-"Harvesting done. Start creating rpbId <-> hbzId lookup."
-| print;
 
-
-rpbHarvest
-| open-file
-| as-lines
-| decode-json
-| fix(FLUX_DIR + "rpbHbzId.fix")
-| encode-csv(includeHeader="TRUE", separator="\t", noQuotes="true")
-| write(FLUX_DIR + "rpbHbzId.tsv")
-;
